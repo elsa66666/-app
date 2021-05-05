@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		001F203CE8919728F979A4C6E64459FC /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6FD8516D19F5A43F8070E03E06EB1A /* CHILayer.swift */; };
+		0C3DE62405048410398882F764F6AD8D /* ZKCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3DD4F1256365C96AE1925C00BA0B207 /* ZKCycleScrollView.swift */; };
+		177DD2B03E7771493A0AEBBB8508BF5F /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C4EAA3D3E0A0ED88A2A6875A21A1B3 /* CHIPageControlAji.swift */; };
+		245647D065073B127D1C9B874CEB6E79 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2751098F1B3AE064A55DDBCD6935F994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28539AB74AE5502F361D2DB6E17201DF /* CHIPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA8B28CCC409EA50972BA84507587B39 /* CHIPageControl-dummy.m */; };
+		303C73B85182A205D9B34D9EAF57A5D6 /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = C84C93DD78ADB3D46127F91EC76215D1 /* CHIPageControlJaloro.swift */; };
+		4CCCD04EC1E06946B4BB51228DBC61F2 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD21259D04A9C1F7658AE17A39F56819 /* CHIPageControlAleppo.swift */; };
+		55F8E29A2E2DBE2B7501E9A185088BCC /* ZKCycleScrollView-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 742D6AFD58D7AED5913D6934CE4C15F4 /* ZKCycleScrollView-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5656BC464628B0B27F709019D37DD0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		567282D99257C055AD15482A809A8B36 /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = F46A5FFE9EFA312463E7FB3AD6787FCD /* CHIBasePageControl.swift */; };
+		7123D5AAB1E9C527208107EF541D1B71 /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2258B1A756E77F297DB49A9BA7702E06 /* CHIPageControlChimayo.swift */; };
+		78CC04770901550BE759637763C37B0C /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 818823F5484FC776153D645C58C5E537 /* CHIPageControlJalapeno.swift */; };
+		8176A3FC1E4DF1B02808B046268D7A85 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B24E01BC5A447BFDC46DF457E509E39 /* CHIPageControlPaprika.swift */; };
+		8FA035856DE9F2CF9E03265980E54F0B /* Pods-InternetPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 037B41D1D4475FDBD8737731AA91250D /* Pods-InternetPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD4EC39C30C40D3E0CDF4C96878BFD3B /* CHIPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACB5A0E492B94B2192707C16F1FBB448 /* CHIPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3DF875B2A16D2568346DCA6149D3E3A /* ZKCycleScrollView-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B75B36C84BE999B7D9512A3A412276 /* ZKCycleScrollView-Swift-dummy.m */; };
+		D5B9CFA505511D2AA6D36091AE0FD3F8 /* ZKCycleScrollViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A4E9A8DCA3E11732FDA9E603911C259 /* ZKCycleScrollViewFlowLayout.swift */; };
+		DB5B9031F7AD5571A956CBAE14EE6FBE /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650F0B53E97D6D869644D2B923F7F3 /* CHIPageControlFresno.swift */; };
+		F0B97E4220504E552B30D1FE2E63281D /* Pods-InternetPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ACB1F33DD1C31F608329CE3FA27ED4 /* Pods-InternetPlus-dummy.m */; };
+		F241852187C0BEFA8D548C773C6FDB5F /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58EC338848F518E9BF2789C056F698B /* CHIPageControllable.swift */; };
+		F65D924C79B1823735C0E2BEE2206D9A /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406D0519F6EB8FD8B4C5F53A4147AF1 /* CHIPageControlPuya.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4DC08A8F6B8DCA5F43CCAD410C8E0229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58A7AC722D45BA5EF49F00D98C86978B;
+			remoteInfo = CHIPageControl;
+		};
+		CF7A22EE741AABFB7C8A65FC97B5A07A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 853F06171CBCBA44E07BFA759616CA0B;
+			remoteInfo = "ZKCycleScrollView-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		037B41D1D4475FDBD8737731AA91250D /* Pods-InternetPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InternetPlus-umbrella.h"; sourceTree = "<group>"; };
+		04B75B36C84BE999B7D9512A3A412276 /* ZKCycleScrollView-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKCycleScrollView-Swift-dummy.m"; sourceTree = "<group>"; };
+		142085943E077C91446029A7F7238D3C /* Pods-InternetPlus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InternetPlus-acknowledgements.plist"; sourceTree = "<group>"; };
+		2258B1A756E77F297DB49A9BA7702E06 /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlChimayo.swift; path = CHIPageControl/CHIPageControlChimayo.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		33B7C07BD8B766465FC9F53092BEA302 /* CHIPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHIPageControl-Info.plist"; sourceTree = "<group>"; };
+		4A33B4418CDB30AC89107033BF8DA6C3 /* CHIPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.release.xcconfig; sourceTree = "<group>"; };
+		4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4EFA58501E7911493C6AEB0CFEA2F6 /* Pods_InternetPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InternetPlus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58FAB90913DE861D3A4257BA5C313E55 /* Pods-InternetPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InternetPlus.release.xcconfig"; sourceTree = "<group>"; };
+		5A4E9A8DCA3E11732FDA9E603911C259 /* ZKCycleScrollViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCycleScrollViewFlowLayout.swift; path = "ZKCycleScrollView-Swift/ZKCycleScrollViewFlowLayout.swift"; sourceTree = "<group>"; };
+		68E80DB1DB49E6B49F052AE53D814EBF /* Pods-InternetPlus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InternetPlus-frameworks.sh"; sourceTree = "<group>"; };
+		73F42FF6BB83FDABB25CF5CF943A29CE /* ZKCycleScrollView-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCycleScrollView-Swift-prefix.pch"; sourceTree = "<group>"; };
+		742D6AFD58D7AED5913D6934CE4C15F4 /* ZKCycleScrollView-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCycleScrollView-Swift-umbrella.h"; sourceTree = "<group>"; };
+		81232BAF53CB75AA2624E799626B855B /* ZKCycleScrollView-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ZKCycleScrollView-Swift.modulemap"; sourceTree = "<group>"; };
+		818823F5484FC776153D645C58C5E537 /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJalapeno.swift; path = CHIPageControl/CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		82F123BBB8EE592507469E89C92429CB /* Pods-InternetPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InternetPlus.modulemap"; sourceTree = "<group>"; };
+		83BC94AFED2EB7F8EC6B62C35D47C3DC /* CHIPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHIPageControl.modulemap; sourceTree = "<group>"; };
+		8406D0519F6EB8FD8B4C5F53A4147AF1 /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPuya.swift; path = CHIPageControl/CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		8B24E01BC5A447BFDC46DF457E509E39 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPaprika.swift; path = CHIPageControl/CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		9895271A01699D04A1C838E7DCA022F5 /* Pods-InternetPlus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InternetPlus-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3C4EAA3D3E0A0ED88A2A6875A21A1B3 /* CHIPageControlAji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAji.swift; path = CHIPageControl/CHIPageControlAji.swift; sourceTree = "<group>"; };
+		A485BD36D1A28416B261FF4DD931B5F7 /* ZKCycleScrollView_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZKCycleScrollView_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6BAD2B7D60A496B98BDB1022EDD72B4 /* ZKCycleScrollView-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZKCycleScrollView-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		A78BDBAD3D286448B569807CE0ED7BB3 /* ZKCycleScrollView-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZKCycleScrollView-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		ACB5A0E492B94B2192707C16F1FBB448 /* CHIPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-umbrella.h"; sourceTree = "<group>"; };
+		B58EC338848F518E9BF2789C056F698B /* CHIPageControllable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControllable.swift; path = CHIPageControl/Core/CHIPageControllable.swift; sourceTree = "<group>"; };
+		B7650F0B53E97D6D869644D2B923F7F3 /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlFresno.swift; path = CHIPageControl/CHIPageControlFresno.swift; sourceTree = "<group>"; };
+		B7DCF9F3C36F374752C5B3F6AC6ECBDE /* Pods-InternetPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InternetPlus-Info.plist"; sourceTree = "<group>"; };
+		B8ACB1F33DD1C31F608329CE3FA27ED4 /* Pods-InternetPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InternetPlus-dummy.m"; sourceTree = "<group>"; };
+		C17DA4EE6AFB203D6D22F8A3C195C82E /* Pods-InternetPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InternetPlus.debug.xcconfig"; sourceTree = "<group>"; };
+		C8100F479D847FD737E19ABB272DD8BF /* ZKCycleScrollView-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKCycleScrollView-Swift-Info.plist"; sourceTree = "<group>"; };
+		C84C93DD78ADB3D46127F91EC76215D1 /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJaloro.swift; path = CHIPageControl/CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		CCF873940B6167F66750BDFB79CB0593 /* CHIPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-prefix.pch"; sourceTree = "<group>"; };
+		DA8B28CCC409EA50972BA84507587B39 /* CHIPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHIPageControl-dummy.m"; sourceTree = "<group>"; };
+		E3DD4F1256365C96AE1925C00BA0B207 /* ZKCycleScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCycleScrollView.swift; path = "ZKCycleScrollView-Swift/ZKCycleScrollView.swift"; sourceTree = "<group>"; };
+		F46A5FFE9EFA312463E7FB3AD6787FCD /* CHIBasePageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIBasePageControl.swift; path = CHIPageControl/Core/CHIBasePageControl.swift; sourceTree = "<group>"; };
+		F62E7E9885B9EA07F224D2197CA75067 /* CHIPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		FB6FD8516D19F5A43F8070E03E06EB1A /* CHILayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHILayer.swift; path = CHIPageControl/Core/CHILayer.swift; sourceTree = "<group>"; };
+		FD21259D04A9C1F7658AE17A39F56819 /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAleppo.swift; path = CHIPageControl/CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		381182BE489DBA76FE53AAC3EEB4826D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5656BC464628B0B27F709019D37DD0CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB7F62276F462D4CB7B7B37161E96732 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245647D065073B127D1C9B874CEB6E79 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC18FFB97D4B35C9C71254D2B0150556 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2751098F1B3AE064A55DDBCD6935F994 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8666A1E6B3BA84313A01A22D7710FA /* Jalapeno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jalapeno;
+			sourceTree = "<group>";
+		};
+		17D3CA4F87AE38123F810E90898BA9CB /* Fresno */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Fresno;
+			sourceTree = "<group>";
+		};
+		33590026FE58D5B5296762B1F1BA6C03 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				81232BAF53CB75AA2624E799626B855B /* ZKCycleScrollView-Swift.modulemap */,
+				04B75B36C84BE999B7D9512A3A412276 /* ZKCycleScrollView-Swift-dummy.m */,
+				C8100F479D847FD737E19ABB272DD8BF /* ZKCycleScrollView-Swift-Info.plist */,
+				73F42FF6BB83FDABB25CF5CF943A29CE /* ZKCycleScrollView-Swift-prefix.pch */,
+				742D6AFD58D7AED5913D6934CE4C15F4 /* ZKCycleScrollView-Swift-umbrella.h */,
+				A78BDBAD3D286448B569807CE0ED7BB3 /* ZKCycleScrollView-Swift.debug.xcconfig */,
+				A6BAD2B7D60A496B98BDB1022EDD72B4 /* ZKCycleScrollView-Swift.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZKCycleScrollView-Swift";
+			sourceTree = "<group>";
+		};
+		38A27407A905E3CCCB5F29DD688BCAD9 /* Paprika */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Paprika;
+			sourceTree = "<group>";
+		};
+		47DC61E1DB943A1DE4696BA1FA104004 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89A5E3EC81EE0C5F3AE2EE3B77A99EDE /* CHIPageControl */,
+				91E01A40581A941511C3D7427FCF5738 /* ZKCycleScrollView-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61CE4FC65103F20B4E1FEFE2A3240490 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				83BC94AFED2EB7F8EC6B62C35D47C3DC /* CHIPageControl.modulemap */,
+				DA8B28CCC409EA50972BA84507587B39 /* CHIPageControl-dummy.m */,
+				33B7C07BD8B766465FC9F53092BEA302 /* CHIPageControl-Info.plist */,
+				CCF873940B6167F66750BDFB79CB0593 /* CHIPageControl-prefix.pch */,
+				ACB5A0E492B94B2192707C16F1FBB448 /* CHIPageControl-umbrella.h */,
+				F62E7E9885B9EA07F224D2197CA75067 /* CHIPageControl.debug.xcconfig */,
+				4A33B4418CDB30AC89107033BF8DA6C3 /* CHIPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHIPageControl";
+			sourceTree = "<group>";
+		};
+		8283C2B3AA6553EFAB936C653FF75737 /* Jaloro */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Jaloro;
+			sourceTree = "<group>";
+		};
+		89A5E3EC81EE0C5F3AE2EE3B77A99EDE /* CHIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				F46A5FFE9EFA312463E7FB3AD6787FCD /* CHIBasePageControl.swift */,
+				FB6FD8516D19F5A43F8070E03E06EB1A /* CHILayer.swift */,
+				A3C4EAA3D3E0A0ED88A2A6875A21A1B3 /* CHIPageControlAji.swift */,
+				FD21259D04A9C1F7658AE17A39F56819 /* CHIPageControlAleppo.swift */,
+				2258B1A756E77F297DB49A9BA7702E06 /* CHIPageControlChimayo.swift */,
+				B7650F0B53E97D6D869644D2B923F7F3 /* CHIPageControlFresno.swift */,
+				818823F5484FC776153D645C58C5E537 /* CHIPageControlJalapeno.swift */,
+				C84C93DD78ADB3D46127F91EC76215D1 /* CHIPageControlJaloro.swift */,
+				B58EC338848F518E9BF2789C056F698B /* CHIPageControllable.swift */,
+				8B24E01BC5A447BFDC46DF457E509E39 /* CHIPageControlPaprika.swift */,
+				8406D0519F6EB8FD8B4C5F53A4147AF1 /* CHIPageControlPuya.swift */,
+				F58544D8D6AD62E644DFE0E06B597B16 /* Aji */,
+				E2F68C9092EA654D52D84A6A94F84A79 /* Aleppo */,
+				93190E490B654C5088D96546959FC835 /* Chimayo */,
+				17D3CA4F87AE38123F810E90898BA9CB /* Fresno */,
+				0C8666A1E6B3BA84313A01A22D7710FA /* Jalapeno */,
+				8283C2B3AA6553EFAB936C653FF75737 /* Jaloro */,
+				38A27407A905E3CCCB5F29DD688BCAD9 /* Paprika */,
+				EEB9B4650BBFB46EC3ACFA2606936072 /* Puya */,
+				61CE4FC65103F20B4E1FEFE2A3240490 /* Support Files */,
+			);
+			path = CHIPageControl;
+			sourceTree = "<group>";
+		};
+		91E01A40581A941511C3D7427FCF5738 /* ZKCycleScrollView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				E3DD4F1256365C96AE1925C00BA0B207 /* ZKCycleScrollView.swift */,
+				5A4E9A8DCA3E11732FDA9E603911C259 /* ZKCycleScrollViewFlowLayout.swift */,
+				33590026FE58D5B5296762B1F1BA6C03 /* Support Files */,
+			);
+			path = "ZKCycleScrollView-Swift";
+			sourceTree = "<group>";
+		};
+		93190E490B654C5088D96546959FC835 /* Chimayo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chimayo;
+			sourceTree = "<group>";
+		};
+		B15ADF6709BBBBF94A92E7EA5DCBFC5F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B8F9C1477B40E4332D7C46FEDB6C214D /* Pods-InternetPlus */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B8F9C1477B40E4332D7C46FEDB6C214D /* Pods-InternetPlus */ = {
+			isa = PBXGroup;
+			children = (
+				82F123BBB8EE592507469E89C92429CB /* Pods-InternetPlus.modulemap */,
+				9895271A01699D04A1C838E7DCA022F5 /* Pods-InternetPlus-acknowledgements.markdown */,
+				142085943E077C91446029A7F7238D3C /* Pods-InternetPlus-acknowledgements.plist */,
+				B8ACB1F33DD1C31F608329CE3FA27ED4 /* Pods-InternetPlus-dummy.m */,
+				68E80DB1DB49E6B49F052AE53D814EBF /* Pods-InternetPlus-frameworks.sh */,
+				B7DCF9F3C36F374752C5B3F6AC6ECBDE /* Pods-InternetPlus-Info.plist */,
+				037B41D1D4475FDBD8737731AA91250D /* Pods-InternetPlus-umbrella.h */,
+				C17DA4EE6AFB203D6D22F8A3C195C82E /* Pods-InternetPlus.debug.xcconfig */,
+				58FAB90913DE861D3A4257BA5C313E55 /* Pods-InternetPlus.release.xcconfig */,
+			);
+			name = "Pods-InternetPlus";
+			path = "Target Support Files/Pods-InternetPlus";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5A2D7F74B7E7BAFA2C0A47EEBAEB405 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl.framework */,
+				4B4EFA58501E7911493C6AEB0CFEA2F6 /* Pods_InternetPlus.framework */,
+				A485BD36D1A28416B261FF4DD931B5F7 /* ZKCycleScrollView_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				47DC61E1DB943A1DE4696BA1FA104004 /* Pods */,
+				C5A2D7F74B7E7BAFA2C0A47EEBAEB405 /* Products */,
+				B15ADF6709BBBBF94A92E7EA5DCBFC5F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F68C9092EA654D52D84A6A94F84A79 /* Aleppo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aleppo;
+			sourceTree = "<group>";
+		};
+		EEB9B4650BBFB46EC3ACFA2606936072 /* Puya */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Puya;
+			sourceTree = "<group>";
+		};
+		F58544D8D6AD62E644DFE0E06B597B16 /* Aji */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Aji;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0E536DA18295204D5DF8DDF4640CFCF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD4EC39C30C40D3E0CDF4C96878BFD3B /* CHIPageControl-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7675D245C1527D98B7B4397BA84B90BA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA035856DE9F2CF9E03265980E54F0B /* Pods-InternetPlus-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A4063BF36C47D87F6790F8C856C7BF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55F8E29A2E2DBE2B7501E9A185088BCC /* ZKCycleScrollView-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07453B3FC6B8657DD29158BD9DFD6DE6 /* Pods-InternetPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7154BC15057ACB36DFF70FE4E894ADE2 /* Build configuration list for PBXNativeTarget "Pods-InternetPlus" */;
+			buildPhases = (
+				7675D245C1527D98B7B4397BA84B90BA /* Headers */,
+				A9B75ED8773A6C726B34DA06333BB8FC /* Sources */,
+				BB7F62276F462D4CB7B7B37161E96732 /* Frameworks */,
+				6772432CFB82A144447EAB81720166E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7C9696BE4407FDF661F4B2BC5C99FB9C /* PBXTargetDependency */,
+				37692E35058B654BA98D4323D1B8F66E /* PBXTargetDependency */,
+			);
+			name = "Pods-InternetPlus";
+			productName = "Pods-InternetPlus";
+			productReference = 4B4EFA58501E7911493C6AEB0CFEA2F6 /* Pods_InternetPlus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE1802FD970983D47911E1C6BE8B036F /* Build configuration list for PBXNativeTarget "CHIPageControl" */;
+			buildPhases = (
+				0E536DA18295204D5DF8DDF4640CFCF6 /* Headers */,
+				BBFDF3DE73D6FE081F458A10594BC540 /* Sources */,
+				DC18FFB97D4B35C9C71254D2B0150556 /* Frameworks */,
+				11ED2A7594F84180B098E14931247A18 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CHIPageControl;
+			productName = CHIPageControl;
+			productReference = 4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		853F06171CBCBA44E07BFA759616CA0B /* ZKCycleScrollView-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E2281C7E0EF1C0DAF713AF911E2FE55 /* Build configuration list for PBXNativeTarget "ZKCycleScrollView-Swift" */;
+			buildPhases = (
+				7A4063BF36C47D87F6790F8C856C7BF2 /* Headers */,
+				F3C07866E1AA84B4B824316B32C0EF19 /* Sources */,
+				381182BE489DBA76FE53AAC3EEB4826D /* Frameworks */,
+				FD88E534B8D3464B7D5446CAC1FB5ACC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZKCycleScrollView-Swift";
+			productName = "ZKCycleScrollView-Swift";
+			productReference = A485BD36D1A28416B261FF4DD931B5F7 /* ZKCycleScrollView_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C5A2D7F74B7E7BAFA2C0A47EEBAEB405 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */,
+				07453B3FC6B8657DD29158BD9DFD6DE6 /* Pods-InternetPlus */,
+				853F06171CBCBA44E07BFA759616CA0B /* ZKCycleScrollView-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11ED2A7594F84180B098E14931247A18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6772432CFB82A144447EAB81720166E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD88E534B8D3464B7D5446CAC1FB5ACC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B75ED8773A6C726B34DA06333BB8FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B97E4220504E552B30D1FE2E63281D /* Pods-InternetPlus-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBFDF3DE73D6FE081F458A10594BC540 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				567282D99257C055AD15482A809A8B36 /* CHIBasePageControl.swift in Sources */,
+				001F203CE8919728F979A4C6E64459FC /* CHILayer.swift in Sources */,
+				28539AB74AE5502F361D2DB6E17201DF /* CHIPageControl-dummy.m in Sources */,
+				177DD2B03E7771493A0AEBBB8508BF5F /* CHIPageControlAji.swift in Sources */,
+				4CCCD04EC1E06946B4BB51228DBC61F2 /* CHIPageControlAleppo.swift in Sources */,
+				7123D5AAB1E9C527208107EF541D1B71 /* CHIPageControlChimayo.swift in Sources */,
+				DB5B9031F7AD5571A956CBAE14EE6FBE /* CHIPageControlFresno.swift in Sources */,
+				78CC04770901550BE759637763C37B0C /* CHIPageControlJalapeno.swift in Sources */,
+				303C73B85182A205D9B34D9EAF57A5D6 /* CHIPageControlJaloro.swift in Sources */,
+				F241852187C0BEFA8D548C773C6FDB5F /* CHIPageControllable.swift in Sources */,
+				8176A3FC1E4DF1B02808B046268D7A85 /* CHIPageControlPaprika.swift in Sources */,
+				F65D924C79B1823735C0E2BEE2206D9A /* CHIPageControlPuya.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3C07866E1AA84B4B824316B32C0EF19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3DF875B2A16D2568346DCA6149D3E3A /* ZKCycleScrollView-Swift-dummy.m in Sources */,
+				0C3DE62405048410398882F764F6AD8D /* ZKCycleScrollView.swift in Sources */,
+				D5B9CFA505511D2AA6D36091AE0FD3F8 /* ZKCycleScrollViewFlowLayout.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		37692E35058B654BA98D4323D1B8F66E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZKCycleScrollView-Swift";
+			target = 853F06171CBCBA44E07BFA759616CA0B /* ZKCycleScrollView-Swift */;
+			targetProxy = CF7A22EE741AABFB7C8A65FC97B5A07A /* PBXContainerItemProxy */;
+		};
+		7C9696BE4407FDF661F4B2BC5C99FB9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CHIPageControl;
+			target = 58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */;
+			targetProxy = 4DC08A8F6B8DCA5F43CCAD410C8E0229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5A03D2C244FD43822F9EB5A05EA2C6B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6BAD2B7D60A496B98BDB1022EDD72B4 /* ZKCycleScrollView-Swift.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKCycleScrollView-Swift/ZKCycleScrollView-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKCycleScrollView-Swift/ZKCycleScrollView-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZKCycleScrollView-Swift/ZKCycleScrollView-Swift.modulemap";
+				PRODUCT_MODULE_NAME = ZKCycleScrollView_Swift;
+				PRODUCT_NAME = ZKCycleScrollView_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		65306D07556D609F8F91040C465887B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A33B4418CDB30AC89107033BF8DA6C3 /* CHIPageControl.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/CHIPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				PRODUCT_MODULE_NAME = CHIPageControl;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EB2FDA46E52343532FF8CCB917FC82D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C17DA4EE6AFB203D6D22F8A3C195C82E /* Pods-InternetPlus.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1B5C141CD576CC3697BEE857782A76E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58FAB90913DE861D3A4257BA5C313E55 /* Pods-InternetPlus.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BEFCDBBE0F2E002C73D60498B27931C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A78BDBAD3D286448B569807CE0ED7BB3 /* ZKCycleScrollView-Swift.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZKCycleScrollView-Swift/ZKCycleScrollView-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZKCycleScrollView-Swift/ZKCycleScrollView-Swift-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZKCycleScrollView-Swift/ZKCycleScrollView-Swift.modulemap";
+				PRODUCT_MODULE_NAME = ZKCycleScrollView_Swift;
+				PRODUCT_NAME = ZKCycleScrollView_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA52A922DBE785A60EB6CBE3C6EA8491 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62E7E9885B9EA07F224D2197CA75067 /* CHIPageControl.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CHIPageControl/CHIPageControl-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CHIPageControl/CHIPageControl-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CHIPageControl/CHIPageControl.modulemap";
+				PRODUCT_MODULE_NAME = CHIPageControl;
+				PRODUCT_NAME = CHIPageControl;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7154BC15057ACB36DFF70FE4E894ADE2 /* Build configuration list for PBXNativeTarget "Pods-InternetPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EB2FDA46E52343532FF8CCB917FC82D /* Debug */,
+				A1B5C141CD576CC3697BEE857782A76E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E2281C7E0EF1C0DAF713AF911E2FE55 /* Build configuration list for PBXNativeTarget "ZKCycleScrollView-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEFCDBBE0F2E002C73D60498B27931C4 /* Debug */,
+				5A03D2C244FD43822F9EB5A05EA2C6B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE1802FD970983D47911E1C6BE8B036F /* Build configuration list for PBXNativeTarget "CHIPageControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA52A922DBE785A60EB6CBE3C6EA8491 /* Debug */,
+				65306D07556D609F8F91040C465887B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
