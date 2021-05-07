@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "07453B3FC6B8657DD29158BD9DFD6DE6"
-               BuildableName = "Pods-InternetPlus.framework"
-               BlueprintName = "Pods-InternetPlus"
+               BlueprintIdentifier = "DC5C3A7662FFA04D04D29F4657D032CE"
+               BuildableName = "XLPagerTabStrip.framework"
+               BlueprintName = "XLPagerTabStrip"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

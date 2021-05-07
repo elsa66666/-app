@@ -9,4 +9,5 @@ target 'InternetPlus' do
 
   pod 'ZKCycleScrollView-Swift'
   pod 'CHIPageControl'
+  pod 'XLPagerTabStrip'
 end

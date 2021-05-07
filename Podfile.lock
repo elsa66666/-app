@@ -16,21 +16,25 @@ PODS:
   - CHIPageControl/Jaloro (0.2)
   - CHIPageControl/Paprika (0.2)
   - CHIPageControl/Puya (0.2)
+  - XLPagerTabStrip (9.0.0)
   - ZKCycleScrollView-Swift (2.0.2)
 
 DEPENDENCIES:
   - CHIPageControl
+  - XLPagerTabStrip
   - ZKCycleScrollView-Swift
 
 SPEC REPOS:
   trunk:
     - CHIPageControl
+    - XLPagerTabStrip
     - ZKCycleScrollView-Swift
 
 SPEC CHECKSUMS:
   CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
   ZKCycleScrollView-Swift: c5d6c4aa5576a9bee2361ecd6c6e89996d9fd5d8
 
-PODFILE CHECKSUM: a9e88d24f41158305d3b536e26545262177b88fd
+PODFILE CHECKSUM: c7dad9843a3bc8f39533f5b010fce6a844ecfc77
 
 COCOAPODS: 1.9.3
