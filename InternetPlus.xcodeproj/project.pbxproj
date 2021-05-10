@@ -21,6 +21,8 @@
 		5F95A9042628924F0073A032 /* HomeMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F95A9032628924F0073A032 /* HomeMainViewController.swift */; };
 		5FC13AF52649081F00F0891E /* BillProgressDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC13AF42649081F00F0891E /* BillProgressDetailViewController.swift */; };
 		5FC13AF72649087E00F0891E /* CheckAddedInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC13AF62649087E00F0891E /* CheckAddedInfoViewController.swift */; };
+		5FC13AFA2649127200F0891E /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FC13AF82649127200F0891E /* TimelineTableViewCell.swift */; };
+		5FC13AFB2649127200F0891E /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FC13AF92649127200F0891E /* TimelineTableViewCell.xib */; };
 		5FD9CA5D2640FB0B007BE62A /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FD9CA5B2640FB0B007BE62A /* ProductCell.swift */; };
 		5FD9CA5E2640FB0B007BE62A /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5FD9CA5C2640FB0B007BE62A /* ProductCell.xib */; };
 		751D44475ACF5E0F29361E7A /* Pods_InternetPlus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6BB52B35591ACAD43BCE17 /* Pods_InternetPlus.framework */; };
@@ -44,6 +46,8 @@
 		5F95A9032628924F0073A032 /* HomeMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMainViewController.swift; sourceTree = "<group>"; };
 		5FC13AF42649081F00F0891E /* BillProgressDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillProgressDetailViewController.swift; sourceTree = "<group>"; };
 		5FC13AF62649087E00F0891E /* CheckAddedInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckAddedInfoViewController.swift; sourceTree = "<group>"; };
+		5FC13AF82649127200F0891E /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		5FC13AF92649127200F0891E /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimelineTableViewCell.xib; sourceTree = "<group>"; };
 		5FD9CA5B2640FB0B007BE62A /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		5FD9CA5C2640FB0B007BE62A /* ProductCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
 		92A23B3E717E4818D2A39C23 /* Pods-InternetPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InternetPlus.debug.xcconfig"; path = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 		5F8BFEE0263D48BF00E8FECA /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5FC13AF82649127200F0891E /* TimelineTableViewCell.swift */,
+				5FC13AF92649127200F0891E /* TimelineTableViewCell.xib */,
 				5F8BFEE1263D48DB00E8FECA /* Constants.swift */,
 				5F5C5224263E4DF70017986C /* ImageCell.swift */,
 				5F5C5223263E4DF70017986C /* ImageCell.xib */,
@@ -207,6 +213,7 @@
 				5F95A8F926288D030073A032 /* LaunchScreen.storyboard in Resources */,
 				5F5C5225263E4DF70017986C /* ImageCell.xib in Resources */,
 				5FD9CA5E2640FB0B007BE62A /* ProductCell.xib in Resources */,
+				5FC13AFB2649127200F0891E /* TimelineTableViewCell.xib in Resources */,
 				5F95A8F626288D030073A032 /* Assets.xcassets in Resources */,
 				5F641DAC264832A4008904F0 /* infoCheckTableViewCell.xib in Resources */,
 				5F95A8F426288D010073A032 /* Main.storyboard in Resources */,
@@ -265,6 +272,7 @@
 				5F8BFEE2263D48DB00E8FECA /* Constants.swift in Sources */,
 				5F95A9042628924F0073A032 /* HomeMainViewController.swift in Sources */,
 				5FC13AF52649081F00F0891E /* BillProgressDetailViewController.swift in Sources */,
+				5FC13AFA2649127200F0891E /* TimelineTableViewCell.swift in Sources */,
 				5F95A8ED26288D010073A032 /* AppDelegate.swift in Sources */,
 				5FD9CA5D2640FB0B007BE62A /* ProductCell.swift in Sources */,
 				5F641DAB264832A4008904F0 /* infoCheckTableViewCell.swift in Sources */,

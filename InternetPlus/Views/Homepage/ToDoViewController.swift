@@ -74,11 +74,11 @@ extension ToDoViewController: UITableViewDataSource{
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if tableView == infoCheckTableView { //资料审核
             let cell = tableView.dequeueReusableCell(withIdentifier: "infoCheckReuseIdentifier", for: indexPath) as! infoCheckTableViewCell
-            cell.state.text = infoCheckStateList[indexPath.row] as! String
+            cell.state.text = infoCheckStateList[indexPath.row]
             return cell
         }else{
             let cell = tableView.dequeueReusableCell(withIdentifier: "infoCheckReuseIdentifier", for: indexPath) as! infoCheckTableViewCell
-            cell.state.text = billProgressStateList[indexPath.row] as! String
+            cell.state.text = billProgressStateList[indexPath.row] 
             return cell
         }
     }

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EBF90A3A56D4C5830C212D000AB67BC1"
-               BuildableName = "XLPagerTabStrip.bundle"
-               BlueprintName = "XLPagerTabStrip-XLPagerTabStrip"
+               BlueprintIdentifier = "6C364E074EFE2E0A69C47469410E6CF1"
+               BuildableName = "TimelineTableViewCell.bundle"
+               BlueprintName = "TimelineTableViewCell-TimelineTableViewCell"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

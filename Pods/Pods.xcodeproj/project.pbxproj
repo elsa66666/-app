@@ -7,159 +7,133 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		001F203CE8919728F979A4C6E64459FC /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F2D5F6B05C982CEED86832C9C26763 /* CHILayer.swift */; };
-		0C3DE62405048410398882F764F6AD8D /* ZKCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48220C8747BD32264FCA60B31D5236F0 /* ZKCycleScrollView.swift */; };
-		177DD2B03E7771493A0AEBBB8508BF5F /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBF81F0B861E38495C07FA2B3259C6DA /* CHIPageControlAji.swift */; };
-		2263FBD3B28485FCCC534FC7C3C605BB /* TwitterPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B99CCF9752D154AB4171E5015A6F50F7 /* TwitterPagerTabStripViewController.swift */; };
-		2751098F1B3AE064A55DDBCD6935F994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		28539AB74AE5502F361D2DB6E17201DF /* CHIPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C54B48EBB309C89AD8C321B326731B9B /* CHIPageControl-dummy.m */; };
-		2B2A32E12DFC1918CB0A59532F9F4CF6 /* IndicatorInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69A232EE9A7764CE8DC1D1726D8DE096 /* IndicatorInfo.swift */; };
-		303C73B85182A205D9B34D9EAF57A5D6 /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E16F2356173CED4AA5825E78038309 /* CHIPageControlJaloro.swift */; };
-		3564DFAEEC72B1F6EC13CB50896BFCFC /* SegmentedPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0023AB718EB7122B7B8E58C3AD56E36B /* SegmentedPagerTabStripViewController.swift */; };
-		4CCCD04EC1E06946B4BB51228DBC61F2 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC2191A10C59D84DE71B4AF1BC59D79 /* CHIPageControlAleppo.swift */; };
-		4CE5ACA7C1A47253167021FFDDEBF906 /* ButtonCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B4B4E4C5709C5D11E4ECF769556BDB3A /* ButtonCell.xib */; };
-		55F8E29A2E2DBE2B7501E9A185088BCC /* ZKCycleScrollView-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AA4A7740B1BEAD4491FF763687CCFDA7 /* ZKCycleScrollView-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5656BC464628B0B27F709019D37DD0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		567282D99257C055AD15482A809A8B36 /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B0B15635FD427DB2D237949D3974462 /* CHIBasePageControl.swift */; };
-		59852DCF0EAE0C79EC8FF4E311A7E33D /* XLPagerTabStrip.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */; };
-		70D1849BD0B9BD7EBB1311006CE349EC /* BaseButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FBB1334EBADEDFE2CE8524F2120733A /* BaseButtonBarPagerTabStripViewController.swift */; };
-		7123D5AAB1E9C527208107EF541D1B71 /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D80E20282C4BE607F8234A7C54FCF5A /* CHIPageControlChimayo.swift */; };
-		73A6D675F8644FF8640913D65B71326B /* Pods-InternetPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ACB1F33DD1C31F608329CE3FA27ED4 /* Pods-InternetPlus-dummy.m */; };
-		78CC04770901550BE759637763C37B0C /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 731F778A3EA116AB716FCB0C6EF0AFC5 /* CHIPageControlJalapeno.swift */; };
-		8176A3FC1E4DF1B02808B046268D7A85 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2230C595B5114C406CDED1DCF24020 /* CHIPageControlPaprika.swift */; };
-		85E995273668E234E47C3A1CE7080660 /* PagerTabStripError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1C6AC4405C2DCA8EA5BFE7F322BA8E2 /* PagerTabStripError.swift */; };
-		96F004A79FF2CDEFB8696DA15A09FCD5 /* ButtonBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF01BC5DD755A178B3E8EEC82C5EE68 /* ButtonBarView.swift */; };
-		A0A4574D35E53A56E1B3F540A46F28E6 /* FXPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2769629FCF5BA9F88BBEBEC561663004 /* FXPageControl.m */; };
-		A9EE7E538B6A8E5BB4A15E591A3DD0CA /* PagerTabStripBehaviour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2A9EDEE08B61110AC74E18B8A47DE1 /* PagerTabStripBehaviour.swift */; };
-		AD4EC39C30C40D3E0CDF4C96878BFD3B /* CHIPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 42E2B3F7660D0637AD3D7846B90FA90E /* CHIPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4F5DDE31F637A0ADB89D85A05E11019 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		C3DF875B2A16D2568346DCA6149D3E3A /* ZKCycleScrollView-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD468106E1620DE8423553DDB1909B /* ZKCycleScrollView-Swift-dummy.m */; };
-		C56ECCE20FAE1CEE3B541E97119D21D1 /* SwipeDirection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FAA8717686711F5E8934F14EFE6A4B5 /* SwipeDirection.swift */; };
-		C943763AB3E7EAD4539E817AD16952A0 /* ButtonBarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047474DCBC6C587CCF49EC57C2D59004 /* ButtonBarPagerTabStripViewController.swift */; };
-		CD7D46A532308BE7708D8B74D6409027 /* PagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8649FA5FF821DA1EFBEFDCEEF5E44D6E /* PagerTabStripViewController.swift */; };
-		D197B238BD053D1E053E1EBF67FABCE2 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C86B29851EDC87B88B6DF64BA19AC24 /* BarView.swift */; };
-		D353700DB30D18C82F01E7169AD10C5D /* ButtonBarViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E550689BAE5D48239B7731A039EE1E0C /* ButtonBarViewCell.swift */; };
-		D5B9CFA505511D2AA6D36091AE0FD3F8 /* ZKCycleScrollViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DC34FBD56540F3C54F3CA6FFCC90133 /* ZKCycleScrollViewFlowLayout.swift */; };
-		D634628CCFD2350B1312DFDF23DDB419 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
-		D876FC30472FE3B36003EB81A43C77D6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
-		DB5B9031F7AD5571A956CBAE14EE6FBE /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 740675C35B96192D8BD1069B2898073C /* CHIPageControlFresno.swift */; };
-		E4F8088624DEAF1E5BDD99F8ACCE9984 /* FXPageControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 57D7039061202230680FCEA0C1A3AA03 /* FXPageControl.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB710E3B83E5AC3825ACA9F70FC42732 /* XLPagerTabStrip-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 441358EAB2F3B13513951833D6604845 /* XLPagerTabStrip-dummy.m */; };
-		ECDB5DFCB90C8717CB32713AAF11C676 /* BarPagerTabStripViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275C3F3DA83C487836045CB673A9E761 /* BarPagerTabStripViewController.swift */; };
-		F14795048A521E499BA1CA7F784CE79A /* Pods-InternetPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 037B41D1D4475FDBD8737731AA91250D /* Pods-InternetPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F241852187C0BEFA8D548C773C6FDB5F /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 360FC8213B8E3C144EB9A5C580499FDA /* CHIPageControllable.swift */; };
-		F65D924C79B1823735C0E2BEE2206D9A /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96D9DB627CDE32F0EA36550FFEEFDBAD /* CHIPageControlPuya.swift */; };
-		FDA03AF7F8F2410886924775622CDF6D /* XLPagerTabStrip-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344F1332F932A9C6877A17E7362FD8FC /* XLPagerTabStrip-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		001F203CE8919728F979A4C6E64459FC /* CHILayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C403C1665D97A6FDF8678437699573BD /* CHILayer.swift */; };
+		0B8F744D8C24E21BDEBCA1B7CFF74528 /* Pods-InternetPlus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8ACB1F33DD1C31F608329CE3FA27ED4 /* Pods-InternetPlus-dummy.m */; };
+		0C3DE62405048410398882F764F6AD8D /* ZKCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E229D98CFE1287FED3182C533B27F51 /* ZKCycleScrollView.swift */; };
+		177DD2B03E7771493A0AEBBB8508BF5F /* CHIPageControlAji.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C1AE07DFFA6CB2B016CD1F0375C416 /* CHIPageControlAji.swift */; };
+		1E9D7215D899E06F11AAC5CF02CC6558 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2751098F1B3AE064A55DDBCD6935F994 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		28539AB74AE5502F361D2DB6E17201DF /* CHIPageControl-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CC584AB96BA2A4A2F2FA35BD3048BCF /* CHIPageControl-dummy.m */; };
+		303C73B85182A205D9B34D9EAF57A5D6 /* CHIPageControlJaloro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C94140F6422202B866E1C9ADE56947E /* CHIPageControlJaloro.swift */; };
+		4CCCD04EC1E06946B4BB51228DBC61F2 /* CHIPageControlAleppo.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4BA7BD2C9CC7D200F547063B2D81C70 /* CHIPageControlAleppo.swift */; };
+		55F8E29A2E2DBE2B7501E9A185088BCC /* ZKCycleScrollView-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5BF1E16ACB7EDA443504BB24EB16218 /* ZKCycleScrollView-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5656BC464628B0B27F709019D37DD0CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		567282D99257C055AD15482A809A8B36 /* CHIBasePageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3DCA80A01B9038A1EE1DE44890089B /* CHIBasePageControl.swift */; };
+		5DDDBCEA8BB24BF139A33224948C5696 /* TimelineTableViewCell.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8F6433D6912D94AF674E50B3B07EE4CC /* TimelineTableViewCell.bundle */; };
+		5E2F833F16E89916C703B9A081C4060D /* TimelineTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D12062141B7E67CA308549BB1F9A6272 /* TimelineTableViewCell.xib */; };
+		7123D5AAB1E9C527208107EF541D1B71 /* CHIPageControlChimayo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5AD30440FAE87A5D28D469497F5C91 /* CHIPageControlChimayo.swift */; };
+		78CC04770901550BE759637763C37B0C /* CHIPageControlJalapeno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A6E742173935CD3A6A3884FDF7372F6 /* CHIPageControlJalapeno.swift */; };
+		8176A3FC1E4DF1B02808B046268D7A85 /* CHIPageControlPaprika.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4CA2EDCF77E262EEB6E0798BAA0D28 /* CHIPageControlPaprika.swift */; };
+		88C2E973E815401CD2BBBAF3F638525E /* TimelineTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F363905C414139E41433848DE75EB912 /* TimelineTableViewCell-dummy.m */; };
+		9272790BB0921EA48D8B49062BC1E3A7 /* TimelinePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 361264ED01EB2162D37E4DDE5ED104B2 /* TimelinePoint.swift */; };
+		AD4EC39C30C40D3E0CDF4C96878BFD3B /* CHIPageControl-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B1E19F0426A27EEC2E105C68B85F6D /* CHIPageControl-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B20744DAAA4A93431219142BD4F90C69 /* Pods-InternetPlus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 037B41D1D4475FDBD8737731AA91250D /* Pods-InternetPlus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3DF875B2A16D2568346DCA6149D3E3A /* ZKCycleScrollView-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1253121BBF7CEABD7FA532B3D4533BF /* ZKCycleScrollView-Swift-dummy.m */; };
+		CC3F5ADEC729A64C44A0CDD054269027 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D5B9CFA505511D2AA6D36091AE0FD3F8 /* ZKCycleScrollViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1842CA0BC2762E32793323A3EDDF97BD /* ZKCycleScrollViewFlowLayout.swift */; };
+		D694DB01DD2C2C6A8D1E88866D50FFAE /* TimelineTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57B2555BBBE62F58D3B7DADF98404757 /* TimelineTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DB5B9031F7AD5571A956CBAE14EE6FBE /* CHIPageControlFresno.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC57F98ACE8756090237700EA5B30353 /* CHIPageControlFresno.swift */; };
+		DDDA24A9734E9F70C66527E1E95A3564 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720BFD2E3D424E3C75D8B37205466C29 /* Timeline.swift */; };
+		F088CBD6DAB91D294A57C8DD3ED9C09F /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9AE9E6D890BD1090EFD4BFE0BAF4E01 /* TimelineTableViewCell.swift */; };
+		F241852187C0BEFA8D548C773C6FDB5F /* CHIPageControllable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDB2688D965B155B7C01E1A96FA86D4B /* CHIPageControllable.swift */; };
+		F65D924C79B1823735C0E2BEE2206D9A /* CHIPageControlPuya.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE043F7FD47FB6E5DF0C810C4B5C593 /* CHIPageControlPuya.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		165B6FAA81312D555D7A1570743BE22C /* PBXContainerItemProxy */ = {
+		2A6A17C56392668D3ACAE2FF531F6B32 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A369E0840142BBDAD437DCF676B529E6;
+			remoteInfo = TimelineTableViewCell;
+		};
+		E2C943C6E9B5FF8C7462BBC8624D2D6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 853F06171CBCBA44E07BFA759616CA0B;
 			remoteInfo = "ZKCycleScrollView-Swift";
 		};
-		99380BECA782E9DD42746D465C617EFC /* PBXContainerItemProxy */ = {
+		EE06CDE6ABE09BFE681832F22AF0F729 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C364E074EFE2E0A69C47469410E6CF1;
+			remoteInfo = "TimelineTableViewCell-TimelineTableViewCell";
+		};
+		F9685447CCECF309A4829BFB9B7AE879 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 58A7AC722D45BA5EF49F00D98C86978B;
 			remoteInfo = CHIPageControl;
 		};
-		B78D1AF93BBF06C1B586F99AFEA2D0E0 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = DC5C3A7662FFA04D04D29F4657D032CE;
-			remoteInfo = XLPagerTabStrip;
-		};
-		D9EE2B6CBB2387623F21BD731FC70A8B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EBF90A3A56D4C5830C212D000AB67BC1;
-			remoteInfo = "XLPagerTabStrip-XLPagerTabStrip";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0023AB718EB7122B7B8E58C3AD56E36B /* SegmentedPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SegmentedPagerTabStripViewController.swift; path = Sources/SegmentedPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		01F2D5F6B05C982CEED86832C9C26763 /* CHILayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHILayer.swift; path = CHIPageControl/Core/CHILayer.swift; sourceTree = "<group>"; };
 		037B41D1D4475FDBD8737731AA91250D /* Pods-InternetPlus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-InternetPlus-umbrella.h"; sourceTree = "<group>"; };
-		047474DCBC6C587CCF49EC57C2D59004 /* ButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarPagerTabStripViewController.swift; path = Sources/ButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		08E7BEE58DA8E4A2A5C24860B2CD06C8 /* XLPagerTabStrip.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XLPagerTabStrip.modulemap; sourceTree = "<group>"; };
-		0ABD468106E1620DE8423553DDB1909B /* ZKCycleScrollView-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKCycleScrollView-Swift-dummy.m"; sourceTree = "<group>"; };
+		05C75E1CCF230D396AE502DCCAC033F3 /* ResourceBundle-TimelineTableViewCell-TimelineTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-TimelineTableViewCell-TimelineTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		08C12D1FF36463F21A2A91AA70579301 /* ZKCycleScrollView-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZKCycleScrollView-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		0C94140F6422202B866E1C9ADE56947E /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJaloro.swift; path = CHIPageControl/CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		0E229D98CFE1287FED3182C533B27F51 /* ZKCycleScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCycleScrollView.swift; path = "ZKCycleScrollView-Swift/ZKCycleScrollView.swift"; sourceTree = "<group>"; };
+		104063076B88CD63BBF7156D30C69E64 /* CHIPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHIPageControl.modulemap; sourceTree = "<group>"; };
 		142085943E077C91446029A7F7238D3C /* Pods-InternetPlus-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InternetPlus-acknowledgements.plist"; sourceTree = "<group>"; };
-		1EB3C7ECBD87016B7F3F3F2343DA55E5 /* CHIPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-prefix.pch"; sourceTree = "<group>"; };
-		1FBB1334EBADEDFE2CE8524F2120733A /* BaseButtonBarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BaseButtonBarPagerTabStripViewController.swift; path = Sources/BaseButtonBarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		275C3F3DA83C487836045CB673A9E761 /* BarPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarPagerTabStripViewController.swift; path = Sources/BarPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		2769629FCF5BA9F88BBEBEC561663004 /* FXPageControl.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FXPageControl.m; path = Sources/FXPageControl.m; sourceTree = "<group>"; };
-		2DA725BBBF6077B468F55310173D473C /* ZKCycleScrollView-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ZKCycleScrollView-Swift.modulemap"; sourceTree = "<group>"; };
-		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		34292478875A219969C02BE8054F150D /* XLPagerTabStrip.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.release.xcconfig; sourceTree = "<group>"; };
-		344F1332F932A9C6877A17E7362FD8FC /* XLPagerTabStrip-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-umbrella.h"; sourceTree = "<group>"; };
-		35A7470BC27EBC843D5C45C3176A9F88 /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
-		360FC8213B8E3C144EB9A5C580499FDA /* CHIPageControllable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControllable.swift; path = CHIPageControl/Core/CHIPageControllable.swift; sourceTree = "<group>"; };
-		3C86B29851EDC87B88B6DF64BA19AC24 /* BarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BarView.swift; path = Sources/BarView.swift; sourceTree = "<group>"; };
-		42E2B3F7660D0637AD3D7846B90FA90E /* CHIPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-umbrella.h"; sourceTree = "<group>"; };
-		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		441358EAB2F3B13513951833D6604845 /* XLPagerTabStrip-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XLPagerTabStrip-dummy.m"; sourceTree = "<group>"; };
-		48220C8747BD32264FCA60B31D5236F0 /* ZKCycleScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCycleScrollView.swift; path = "ZKCycleScrollView-Swift/ZKCycleScrollView.swift"; sourceTree = "<group>"; };
+		1842CA0BC2762E32793323A3EDDF97BD /* ZKCycleScrollViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCycleScrollViewFlowLayout.swift; path = "ZKCycleScrollView-Swift/ZKCycleScrollViewFlowLayout.swift"; sourceTree = "<group>"; };
+		2DE043F7FD47FB6E5DF0C810C4B5C593 /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPuya.swift; path = CHIPageControl/CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		361264ED01EB2162D37E4DDE5ED104B2 /* TimelinePoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelinePoint.swift; path = TimelineTableViewCell/TimelinePoint.swift; sourceTree = "<group>"; };
+		3A6E742173935CD3A6A3884FDF7372F6 /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJalapeno.swift; path = CHIPageControl/CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
+		3C4CA2EDCF77E262EEB6E0798BAA0D28 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPaprika.swift; path = CHIPageControl/CHIPageControlPaprika.swift; sourceTree = "<group>"; };
+		4A5AD30440FAE87A5D28D469497F5C91 /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlChimayo.swift; path = CHIPageControl/CHIPageControlChimayo.swift; sourceTree = "<group>"; };
 		4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CHIPageControl.framework; path = CHIPageControl.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4EFA58501E7911493C6AEB0CFEA2F6 /* Pods_InternetPlus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_InternetPlus.framework; path = "Pods-InternetPlus.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57D7039061202230680FCEA0C1A3AA03 /* FXPageControl.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FXPageControl.h; path = Sources/FXPageControl.h; sourceTree = "<group>"; };
+		4B5E6042A409E8291031CC30B49512A0 /* ZKCycleScrollView-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZKCycleScrollView-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		4E4C7724F90235016F5A95963B075C88 /* TimelineTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TimelineTableViewCell.modulemap; sourceTree = "<group>"; };
+		57B2555BBBE62F58D3B7DADF98404757 /* TimelineTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimelineTableViewCell-umbrella.h"; sourceTree = "<group>"; };
 		58FAB90913DE861D3A4257BA5C313E55 /* Pods-InternetPlus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InternetPlus.release.xcconfig"; sourceTree = "<group>"; };
 		68E80DB1DB49E6B49F052AE53D814EBF /* Pods-InternetPlus-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-InternetPlus-frameworks.sh"; sourceTree = "<group>"; };
-		69A232EE9A7764CE8DC1D1726D8DE096 /* IndicatorInfo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IndicatorInfo.swift; path = Sources/IndicatorInfo.swift; sourceTree = "<group>"; };
-		6B0B15635FD427DB2D237949D3974462 /* CHIBasePageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIBasePageControl.swift; path = CHIPageControl/Core/CHIBasePageControl.swift; sourceTree = "<group>"; };
-		6FAA8717686711F5E8934F14EFE6A4B5 /* SwipeDirection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwipeDirection.swift; path = Sources/SwipeDirection.swift; sourceTree = "<group>"; };
-		708A835E00F17C145D43B2BE9D028F9F /* XLPagerTabStrip.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XLPagerTabStrip.debug.xcconfig; sourceTree = "<group>"; };
-		731F778A3EA116AB716FCB0C6EF0AFC5 /* CHIPageControlJalapeno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJalapeno.swift; path = CHIPageControl/CHIPageControlJalapeno.swift; sourceTree = "<group>"; };
-		740675C35B96192D8BD1069B2898073C /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlFresno.swift; path = CHIPageControl/CHIPageControlFresno.swift; sourceTree = "<group>"; };
-		751B92CCDCC0E60AFA1B62DD169C4804 /* CHIPageControl.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CHIPageControl.modulemap; sourceTree = "<group>"; };
-		78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = XLPagerTabStrip.bundle; path = "XLPagerTabStrip-XLPagerTabStrip.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		80E16F2356173CED4AA5825E78038309 /* CHIPageControlJaloro.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlJaloro.swift; path = CHIPageControl/CHIPageControlJaloro.swift; sourceTree = "<group>"; };
+		6D09029C2760F3A942D3AAA81FB50A6C /* CHIPageControl-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-prefix.pch"; sourceTree = "<group>"; };
+		6DAB2D4C05370C214A71EBD3FE6593D8 /* TimelineTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TimelineTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		720BFD2E3D424E3C75D8B37205466C29 /* Timeline.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Timeline.swift; path = TimelineTableViewCell/Timeline.swift; sourceTree = "<group>"; };
 		82F123BBB8EE592507469E89C92429CB /* Pods-InternetPlus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-InternetPlus.modulemap"; sourceTree = "<group>"; };
-		8649FA5FF821DA1EFBEFDCEEF5E44D6E /* PagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripViewController.swift; path = Sources/PagerTabStripViewController.swift; sourceTree = "<group>"; };
-		8D80E20282C4BE607F8234A7C54FCF5A /* CHIPageControlChimayo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlChimayo.swift; path = CHIPageControl/CHIPageControlChimayo.swift; sourceTree = "<group>"; };
-		8DC34FBD56540F3C54F3CA6FFCC90133 /* ZKCycleScrollViewFlowLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZKCycleScrollViewFlowLayout.swift; path = "ZKCycleScrollView-Swift/ZKCycleScrollViewFlowLayout.swift"; sourceTree = "<group>"; };
-		8F1F58C5C252E9683AED303E53E817D1 /* ZKCycleScrollView-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCycleScrollView-Swift-prefix.pch"; sourceTree = "<group>"; };
-		945E7960DD8547F40DF4F90DBCA454CF /* ZKCycleScrollView-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZKCycleScrollView-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		96D9DB627CDE32F0EA36550FFEEFDBAD /* CHIPageControlPuya.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPuya.swift; path = CHIPageControl/CHIPageControlPuya.swift; sourceTree = "<group>"; };
+		897DDFB32EB15CA77766485B088D913D /* TimelineTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TimelineTableViewCell.framework; path = TimelineTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CC584AB96BA2A4A2F2FA35BD3048BCF /* CHIPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHIPageControl-dummy.m"; sourceTree = "<group>"; };
+		8F6433D6912D94AF674E50B3B07EE4CC /* TimelineTableViewCell.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = TimelineTableViewCell.bundle; path = "TimelineTableViewCell-TimelineTableViewCell.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93C1D0F8F849C0604DC03AAB5E018CAB /* ZKCycleScrollView-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCycleScrollView-Swift-prefix.pch"; sourceTree = "<group>"; };
 		9895271A01699D04A1C838E7DCA022F5 /* Pods-InternetPlus-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-InternetPlus-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9C2230C595B5114C406CDED1DCF24020 /* CHIPageControlPaprika.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlPaprika.swift; path = CHIPageControl/CHIPageControlPaprika.swift; sourceTree = "<group>"; };
-		9C2A9EDEE08B61110AC74E18B8A47DE1 /* PagerTabStripBehaviour.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripBehaviour.swift; path = Sources/PagerTabStripBehaviour.swift; sourceTree = "<group>"; };
+		9CCEC0EA294850595953869584271E8D /* TimelineTableViewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimelineTableViewCell.release.xcconfig; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9FF01BC5DD755A178B3E8EEC82C5EE68 /* ButtonBarView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarView.swift; path = Sources/ButtonBarView.swift; sourceTree = "<group>"; };
+		A1253121BBF7CEABD7FA532B3D4533BF /* ZKCycleScrollView-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZKCycleScrollView-Swift-dummy.m"; sourceTree = "<group>"; };
 		A485BD36D1A28416B261FF4DD931B5F7 /* ZKCycleScrollView_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZKCycleScrollView_Swift.framework; path = "ZKCycleScrollView-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA4A7740B1BEAD4491FF763687CCFDA7 /* ZKCycleScrollView-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCycleScrollView-Swift-umbrella.h"; sourceTree = "<group>"; };
-		B2864CE11474B761C1A8DBD8C4AA5C6D /* XLPagerTabStrip-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XLPagerTabStrip-prefix.pch"; sourceTree = "<group>"; };
-		B4B4E4C5709C5D11E4ECF769556BDB3A /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = ButtonCell.xib; path = Sources/ButtonCell.xib; sourceTree = "<group>"; };
-		B6C328E4BD06EBA255A0973FCF3E7240 /* XLPagerTabStrip-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "XLPagerTabStrip-Info.plist"; sourceTree = "<group>"; };
+		AF5BB52FE8CF1B9051AC1FFBED932A23 /* CHIPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHIPageControl-Info.plist"; sourceTree = "<group>"; };
+		B1B1E19F0426A27EEC2E105C68B85F6D /* CHIPageControl-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CHIPageControl-umbrella.h"; sourceTree = "<group>"; };
+		B4BA7BD2C9CC7D200F547063B2D81C70 /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAleppo.swift; path = CHIPageControl/CHIPageControlAleppo.swift; sourceTree = "<group>"; };
+		B5BF1E16ACB7EDA443504BB24EB16218 /* ZKCycleScrollView-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZKCycleScrollView-Swift-umbrella.h"; sourceTree = "<group>"; };
 		B7DCF9F3C36F374752C5B3F6AC6ECBDE /* Pods-InternetPlus-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-InternetPlus-Info.plist"; sourceTree = "<group>"; };
 		B8ACB1F33DD1C31F608329CE3FA27ED4 /* Pods-InternetPlus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-InternetPlus-dummy.m"; sourceTree = "<group>"; };
-		B99CCF9752D154AB4171E5015A6F50F7 /* TwitterPagerTabStripViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TwitterPagerTabStripViewController.swift; path = Sources/TwitterPagerTabStripViewController.swift; sourceTree = "<group>"; };
-		BBF81F0B861E38495C07FA2B3259C6DA /* CHIPageControlAji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAji.swift; path = CHIPageControl/CHIPageControlAji.swift; sourceTree = "<group>"; };
+		BD3DCA80A01B9038A1EE1DE44890089B /* CHIBasePageControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIBasePageControl.swift; path = CHIPageControl/Core/CHIBasePageControl.swift; sourceTree = "<group>"; };
 		C17DA4EE6AFB203D6D22F8A3C195C82E /* Pods-InternetPlus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-InternetPlus.debug.xcconfig"; sourceTree = "<group>"; };
-		C1C6AC4405C2DCA8EA5BFE7F322BA8E2 /* PagerTabStripError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PagerTabStripError.swift; path = Sources/PagerTabStripError.swift; sourceTree = "<group>"; };
-		C54B48EBB309C89AD8C321B326731B9B /* CHIPageControl-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CHIPageControl-dummy.m"; sourceTree = "<group>"; };
-		C6C16C42D7AAFF41E2688E37AE611CC8 /* CHIPageControl-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CHIPageControl-Info.plist"; sourceTree = "<group>"; };
-		D7AE930AC3332FD04CCB22963CDE74E8 /* ZKCycleScrollView-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKCycleScrollView-Swift-Info.plist"; sourceTree = "<group>"; };
-		DAC2191A10C59D84DE71B4AF1BC59D79 /* CHIPageControlAleppo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAleppo.swift; path = CHIPageControl/CHIPageControlAleppo.swift; sourceTree = "<group>"; };
-		DF4E34BDB47B580F4C295EF937467672 /* CHIPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.debug.xcconfig; sourceTree = "<group>"; };
-		E550689BAE5D48239B7731A039EE1E0C /* ButtonBarViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ButtonBarViewCell.swift; path = Sources/ButtonBarViewCell.swift; sourceTree = "<group>"; };
-		E65C37F17639920BD6193AC21D864C02 /* CHIPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.release.xcconfig; sourceTree = "<group>"; };
-		F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = XLPagerTabStrip.framework; path = XLPagerTabStrip.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F864E4D2A44B90C6C0EBF1476E994045 /* ZKCycleScrollView-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ZKCycleScrollView-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		C24B447279624B30F5A55114CA6CD44D /* TimelineTableViewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TimelineTableViewCell.debug.xcconfig; sourceTree = "<group>"; };
+		C403C1665D97A6FDF8678437699573BD /* CHILayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHILayer.swift; path = CHIPageControl/Core/CHILayer.swift; sourceTree = "<group>"; };
+		C76770CBCB34910F0339DE1161E77FC4 /* ZKCycleScrollView-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZKCycleScrollView-Swift-Info.plist"; sourceTree = "<group>"; };
+		C9AE9E6D890BD1090EFD4BFE0BAF4E01 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimelineTableViewCell.swift; path = TimelineTableViewCell/TimelineTableViewCell.swift; sourceTree = "<group>"; };
+		CF31838A562AEA9E33A18DE3F8CA5D47 /* ZKCycleScrollView-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "ZKCycleScrollView-Swift.modulemap"; sourceTree = "<group>"; };
+		D12062141B7E67CA308549BB1F9A6272 /* TimelineTableViewCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = TimelineTableViewCell.xib; path = TimelineTableViewCell/TimelineTableViewCell.xib; sourceTree = "<group>"; };
+		DA6E89400733F4940D93D7C7797FBBDF /* CHIPageControl.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.debug.xcconfig; sourceTree = "<group>"; };
+		DD386C8713FD0A26D158668537FB28C7 /* TimelineTableViewCell-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TimelineTableViewCell-Info.plist"; sourceTree = "<group>"; };
+		DDB2688D965B155B7C01E1A96FA86D4B /* CHIPageControllable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControllable.swift; path = CHIPageControl/Core/CHIPageControllable.swift; sourceTree = "<group>"; };
+		ED056A9B39A4CFB424330810F28BA156 /* CHIPageControl.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CHIPageControl.release.xcconfig; sourceTree = "<group>"; };
+		F363905C414139E41433848DE75EB912 /* TimelineTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TimelineTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		F3C1AE07DFFA6CB2B016CD1F0375C416 /* CHIPageControlAji.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlAji.swift; path = CHIPageControl/CHIPageControlAji.swift; sourceTree = "<group>"; };
+		FC57F98ACE8756090237700EA5B30353 /* CHIPageControlFresno.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CHIPageControlFresno.swift; path = CHIPageControl/CHIPageControlFresno.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		281FA43C06BF86AD06E7B59325D152DB /* Frameworks */ = {
+		2BBC86B7AF62130B72ACA6C997ACD18D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D876FC30472FE3B36003EB81A43C77D6 /* Foundation.framework in Frameworks */,
+				1E9D7215D899E06F11AAC5CF02CC6558 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,16 +145,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		46838D78326334C73BB939C9C9EB9D5E /* Frameworks */ = {
+		69CBC79CD252A4F64331C59D0E788329 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B4F5DDE31F637A0ADB89D85A05E11019 /* Foundation.framework in Frameworks */,
-				D634628CCFD2350B1312DFDF23DDB419 /* UIKit.framework in Frameworks */,
+				CC3F5ADEC729A64C44A0CDD054269027 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE87B7E2643F60BCAFE3F99D669C4318 /* Frameworks */ = {
+		93235523ED97C918569CBCC4CEB47CCD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,141 +171,158 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		13FF42AB6C547AD01980C4768FBBADBC /* Jalapeno */ = {
+		097AB92D593F7AA0539D310B5773B7D6 /* TimelineTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				720BFD2E3D424E3C75D8B37205466C29 /* Timeline.swift */,
+				361264ED01EB2162D37E4DDE5ED104B2 /* TimelinePoint.swift */,
+				C9AE9E6D890BD1090EFD4BFE0BAF4E01 /* TimelineTableViewCell.swift */,
+				8697B50D808FB8E12AED46936E29382F /* Resources */,
+				D7CDB868A5511CA5550B9D2F4B434B3A /* Support Files */,
+			);
+			name = TimelineTableViewCell;
+			path = TimelineTableViewCell;
+			sourceTree = "<group>";
+		};
+		09D8BB56FDFD1FB50769D51948917399 /* Chimayo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Chimayo;
+			sourceTree = "<group>";
+		};
+		10FDA65CAE40D9A782F75E357C8296F9 /* Jalapeno */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Jalapeno;
 			sourceTree = "<group>";
 		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+		11F43D0BBDAB26261625971FB8E8615A /* Jaloro */ = {
 			isa = PBXGroup;
 			children = (
-				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
 			);
-			name = Frameworks;
+			name = Jaloro;
 			sourceTree = "<group>";
 		};
-		2CEB0F55FE8473ABAED3D8B44CA2FD48 /* Products */ = {
+		1BAB81C65AF711BAA90E3725A0B1E4CA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl.framework */,
-				4B4EFA58501E7911493C6AEB0CFEA2F6 /* Pods_InternetPlus.framework */,
-				78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */,
-				F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */,
-				A485BD36D1A28416B261FF4DD931B5F7 /* ZKCycleScrollView_Swift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		32FD5839E54CA9875C815A77C6E2B995 /* ZKCycleScrollView-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				48220C8747BD32264FCA60B31D5236F0 /* ZKCycleScrollView.swift */,
-				8DC34FBD56540F3C54F3CA6FFCC90133 /* ZKCycleScrollViewFlowLayout.swift */,
-				3CCCCBAC5E3133876B08477E2BDF3698 /* Support Files */,
-			);
-			name = "ZKCycleScrollView-Swift";
-			path = "ZKCycleScrollView-Swift";
-			sourceTree = "<group>";
-		};
-		3CCCCBAC5E3133876B08477E2BDF3698 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				2DA725BBBF6077B468F55310173D473C /* ZKCycleScrollView-Swift.modulemap */,
-				0ABD468106E1620DE8423553DDB1909B /* ZKCycleScrollView-Swift-dummy.m */,
-				D7AE930AC3332FD04CCB22963CDE74E8 /* ZKCycleScrollView-Swift-Info.plist */,
-				8F1F58C5C252E9683AED303E53E817D1 /* ZKCycleScrollView-Swift-prefix.pch */,
-				AA4A7740B1BEAD4491FF763687CCFDA7 /* ZKCycleScrollView-Swift-umbrella.h */,
-				945E7960DD8547F40DF4F90DBCA454CF /* ZKCycleScrollView-Swift.debug.xcconfig */,
-				F864E4D2A44B90C6C0EBF1476E994045 /* ZKCycleScrollView-Swift.release.xcconfig */,
+				CF31838A562AEA9E33A18DE3F8CA5D47 /* ZKCycleScrollView-Swift.modulemap */,
+				A1253121BBF7CEABD7FA532B3D4533BF /* ZKCycleScrollView-Swift-dummy.m */,
+				C76770CBCB34910F0339DE1161E77FC4 /* ZKCycleScrollView-Swift-Info.plist */,
+				93C1D0F8F849C0604DC03AAB5E018CAB /* ZKCycleScrollView-Swift-prefix.pch */,
+				B5BF1E16ACB7EDA443504BB24EB16218 /* ZKCycleScrollView-Swift-umbrella.h */,
+				4B5E6042A409E8291031CC30B49512A0 /* ZKCycleScrollView-Swift.debug.xcconfig */,
+				08C12D1FF36463F21A2A91AA70579301 /* ZKCycleScrollView-Swift.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ZKCycleScrollView-Swift";
 			sourceTree = "<group>";
 		};
-		44F7D2406120F0C034927B8A88FB1149 /* Aji */ = {
+		20A19EAEEBBEECD6542F1FA0673ABA96 /* Aleppo */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Aji;
+			name = Aleppo;
 			sourceTree = "<group>";
 		};
-		45FBDDA28C511D3FCE016D30CBA0F4B6 /* CHIPageControl */ = {
-			isa = PBXGroup;
-			children = (
-				6B0B15635FD427DB2D237949D3974462 /* CHIBasePageControl.swift */,
-				01F2D5F6B05C982CEED86832C9C26763 /* CHILayer.swift */,
-				BBF81F0B861E38495C07FA2B3259C6DA /* CHIPageControlAji.swift */,
-				DAC2191A10C59D84DE71B4AF1BC59D79 /* CHIPageControlAleppo.swift */,
-				8D80E20282C4BE607F8234A7C54FCF5A /* CHIPageControlChimayo.swift */,
-				740675C35B96192D8BD1069B2898073C /* CHIPageControlFresno.swift */,
-				731F778A3EA116AB716FCB0C6EF0AFC5 /* CHIPageControlJalapeno.swift */,
-				80E16F2356173CED4AA5825E78038309 /* CHIPageControlJaloro.swift */,
-				360FC8213B8E3C144EB9A5C580499FDA /* CHIPageControllable.swift */,
-				9C2230C595B5114C406CDED1DCF24020 /* CHIPageControlPaprika.swift */,
-				96D9DB627CDE32F0EA36550FFEEFDBAD /* CHIPageControlPuya.swift */,
-				44F7D2406120F0C034927B8A88FB1149 /* Aji */,
-				EEE83DA134BD76E1BAC795CF726552FF /* Aleppo */,
-				D53921BA77F81CC412E433F08274E466 /* Chimayo */,
-				70E3C339645E614989C07D1F10FA8108 /* Fresno */,
-				13FF42AB6C547AD01980C4768FBBADBC /* Jalapeno */,
-				F3F6FF515CE26C9F88C71DAEB5D2263C /* Jaloro */,
-				ADC292099DB5E54EA86FB2B029F77B10 /* Paprika */,
-				F18ADE3232A4F88E6484FAC98DFB1A3B /* Puya */,
-				FB8DF94E2D07047ED6CAC12712E1551A /* Support Files */,
-			);
-			name = CHIPageControl;
-			path = CHIPageControl;
-			sourceTree = "<group>";
-		};
-		6F525D0951A3A4B4F4082C1D7F1697FC /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				45FBDDA28C511D3FCE016D30CBA0F4B6 /* CHIPageControl */,
-				76B014D7BBCC7B34752F851FD9977BD0 /* XLPagerTabStrip */,
-				32FD5839E54CA9875C815A77C6E2B995 /* ZKCycleScrollView-Swift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		70E3C339645E614989C07D1F10FA8108 /* Fresno */ = {
+		4894B056C828CA26E75B45E5CBDAC0D8 /* Fresno */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Fresno;
 			sourceTree = "<group>";
 		};
-		76B014D7BBCC7B34752F851FD9977BD0 /* XLPagerTabStrip */ = {
+		50D222ACF64C57AB9A75CA2DB6A1AAFB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				275C3F3DA83C487836045CB673A9E761 /* BarPagerTabStripViewController.swift */,
-				3C86B29851EDC87B88B6DF64BA19AC24 /* BarView.swift */,
-				1FBB1334EBADEDFE2CE8524F2120733A /* BaseButtonBarPagerTabStripViewController.swift */,
-				047474DCBC6C587CCF49EC57C2D59004 /* ButtonBarPagerTabStripViewController.swift */,
-				9FF01BC5DD755A178B3E8EEC82C5EE68 /* ButtonBarView.swift */,
-				E550689BAE5D48239B7731A039EE1E0C /* ButtonBarViewCell.swift */,
-				57D7039061202230680FCEA0C1A3AA03 /* FXPageControl.h */,
-				2769629FCF5BA9F88BBEBEC561663004 /* FXPageControl.m */,
-				69A232EE9A7764CE8DC1D1726D8DE096 /* IndicatorInfo.swift */,
-				9C2A9EDEE08B61110AC74E18B8A47DE1 /* PagerTabStripBehaviour.swift */,
-				C1C6AC4405C2DCA8EA5BFE7F322BA8E2 /* PagerTabStripError.swift */,
-				8649FA5FF821DA1EFBEFDCEEF5E44D6E /* PagerTabStripViewController.swift */,
-				0023AB718EB7122B7B8E58C3AD56E36B /* SegmentedPagerTabStripViewController.swift */,
-				6FAA8717686711F5E8934F14EFE6A4B5 /* SwipeDirection.swift */,
-				B99CCF9752D154AB4171E5015A6F50F7 /* TwitterPagerTabStripViewController.swift */,
-				EA5295086DC9738189F44385E89BD902 /* Resources */,
-				CA5DEFB7C811C49A2FFAD38DB6BFDEA0 /* Support Files */,
+				4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl.framework */,
+				4B4EFA58501E7911493C6AEB0CFEA2F6 /* Pods_InternetPlus.framework */,
+				8F6433D6912D94AF674E50B3B07EE4CC /* TimelineTableViewCell.bundle */,
+				897DDFB32EB15CA77766485B088D913D /* TimelineTableViewCell.framework */,
+				A485BD36D1A28416B261FF4DD931B5F7 /* ZKCycleScrollView_Swift.framework */,
 			);
-			name = XLPagerTabStrip;
-			path = XLPagerTabStrip;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		ADC292099DB5E54EA86FB2B029F77B10 /* Paprika */ = {
+		5A5C913C6BDFDA478FA686DA79FF7653 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				104063076B88CD63BBF7156D30C69E64 /* CHIPageControl.modulemap */,
+				8CC584AB96BA2A4A2F2FA35BD3048BCF /* CHIPageControl-dummy.m */,
+				AF5BB52FE8CF1B9051AC1FFBED932A23 /* CHIPageControl-Info.plist */,
+				6D09029C2760F3A942D3AAA81FB50A6C /* CHIPageControl-prefix.pch */,
+				B1B1E19F0426A27EEC2E105C68B85F6D /* CHIPageControl-umbrella.h */,
+				DA6E89400733F4940D93D7C7797FBBDF /* CHIPageControl.debug.xcconfig */,
+				ED056A9B39A4CFB424330810F28BA156 /* CHIPageControl.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CHIPageControl";
+			sourceTree = "<group>";
+		};
+		6F4586F5368B54218D6D87DF3F18222A /* ZKCycleScrollView-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				0E229D98CFE1287FED3182C533B27F51 /* ZKCycleScrollView.swift */,
+				1842CA0BC2762E32793323A3EDDF97BD /* ZKCycleScrollViewFlowLayout.swift */,
+				1BAB81C65AF711BAA90E3725A0B1E4CA /* Support Files */,
+			);
+			name = "ZKCycleScrollView-Swift";
+			path = "ZKCycleScrollView-Swift";
+			sourceTree = "<group>";
+		};
+		8697B50D808FB8E12AED46936E29382F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D12062141B7E67CA308549BB1F9A6272 /* TimelineTableViewCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		96E0F6F3A6C8026D301649A9D42863AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B977853A373067ECFBAD07D7C1DC816 /* CHIPageControl */,
+				097AB92D593F7AA0539D310B5773B7D6 /* TimelineTableViewCell */,
+				6F4586F5368B54218D6D87DF3F18222A /* ZKCycleScrollView-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B977853A373067ECFBAD07D7C1DC816 /* CHIPageControl */ = {
+			isa = PBXGroup;
+			children = (
+				BD3DCA80A01B9038A1EE1DE44890089B /* CHIBasePageControl.swift */,
+				C403C1665D97A6FDF8678437699573BD /* CHILayer.swift */,
+				F3C1AE07DFFA6CB2B016CD1F0375C416 /* CHIPageControlAji.swift */,
+				B4BA7BD2C9CC7D200F547063B2D81C70 /* CHIPageControlAleppo.swift */,
+				4A5AD30440FAE87A5D28D469497F5C91 /* CHIPageControlChimayo.swift */,
+				FC57F98ACE8756090237700EA5B30353 /* CHIPageControlFresno.swift */,
+				3A6E742173935CD3A6A3884FDF7372F6 /* CHIPageControlJalapeno.swift */,
+				0C94140F6422202B866E1C9ADE56947E /* CHIPageControlJaloro.swift */,
+				DDB2688D965B155B7C01E1A96FA86D4B /* CHIPageControllable.swift */,
+				3C4CA2EDCF77E262EEB6E0798BAA0D28 /* CHIPageControlPaprika.swift */,
+				2DE043F7FD47FB6E5DF0C810C4B5C593 /* CHIPageControlPuya.swift */,
+				A3F3D247D43EF26AC95F007A1AF60D49 /* Aji */,
+				20A19EAEEBBEECD6542F1FA0673ABA96 /* Aleppo */,
+				09D8BB56FDFD1FB50769D51948917399 /* Chimayo */,
+				4894B056C828CA26E75B45E5CBDAC0D8 /* Fresno */,
+				10FDA65CAE40D9A782F75E357C8296F9 /* Jalapeno */,
+				11F43D0BBDAB26261625971FB8E8615A /* Jaloro */,
+				FFD639D2660C133CC8E7D2BC9622E933 /* Paprika */,
+				D83F88B8404637293875BF15EBCAA0F2 /* Puya */,
+				5A5C913C6BDFDA478FA686DA79FF7653 /* Support Files */,
+			);
+			name = CHIPageControl;
+			path = CHIPageControl;
+			sourceTree = "<group>";
+		};
+		A3F3D247D43EF26AC95F007A1AF60D49 /* Aji */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Paprika;
+			name = Aji;
 			sourceTree = "<group>";
 		};
 		B15ADF6709BBBBF94A92E7EA5DCBFC5F /* Targets Support Files */ = {
@@ -360,91 +350,61 @@
 			path = "Target Support Files/Pods-InternetPlus";
 			sourceTree = "<group>";
 		};
-		CA5DEFB7C811C49A2FFAD38DB6BFDEA0 /* Support Files */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				35A7470BC27EBC843D5C45C3176A9F88 /* ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist */,
-				08E7BEE58DA8E4A2A5C24860B2CD06C8 /* XLPagerTabStrip.modulemap */,
-				441358EAB2F3B13513951833D6604845 /* XLPagerTabStrip-dummy.m */,
-				B6C328E4BD06EBA255A0973FCF3E7240 /* XLPagerTabStrip-Info.plist */,
-				B2864CE11474B761C1A8DBD8C4AA5C6D /* XLPagerTabStrip-prefix.pch */,
-				344F1332F932A9C6877A17E7362FD8FC /* XLPagerTabStrip-umbrella.h */,
-				708A835E00F17C145D43B2BE9D028F9F /* XLPagerTabStrip.debug.xcconfig */,
-				34292478875A219969C02BE8054F150D /* XLPagerTabStrip.release.xcconfig */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Support Files";
-			path = "../Target Support Files/XLPagerTabStrip";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				6F525D0951A3A4B4F4082C1D7F1697FC /* Pods */,
-				2CEB0F55FE8473ABAED3D8B44CA2FD48 /* Products */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				96E0F6F3A6C8026D301649A9D42863AB /* Pods */,
+				50D222ACF64C57AB9A75CA2DB6A1AAFB /* Products */,
 				B15ADF6709BBBBF94A92E7EA5DCBFC5F /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D53921BA77F81CC412E433F08274E466 /* Chimayo */ = {
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
-			name = Chimayo;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+		D7CDB868A5511CA5550B9D2F4B434B3A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
-				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+				05C75E1CCF230D396AE502DCCAC033F3 /* ResourceBundle-TimelineTableViewCell-TimelineTableViewCell-Info.plist */,
+				4E4C7724F90235016F5A95963B075C88 /* TimelineTableViewCell.modulemap */,
+				F363905C414139E41433848DE75EB912 /* TimelineTableViewCell-dummy.m */,
+				DD386C8713FD0A26D158668537FB28C7 /* TimelineTableViewCell-Info.plist */,
+				6DAB2D4C05370C214A71EBD3FE6593D8 /* TimelineTableViewCell-prefix.pch */,
+				57B2555BBBE62F58D3B7DADF98404757 /* TimelineTableViewCell-umbrella.h */,
+				C24B447279624B30F5A55114CA6CD44D /* TimelineTableViewCell.debug.xcconfig */,
+				9CCEC0EA294850595953869584271E8D /* TimelineTableViewCell.release.xcconfig */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "../Target Support Files/TimelineTableViewCell";
 			sourceTree = "<group>";
 		};
-		EA5295086DC9738189F44385E89BD902 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				B4B4E4C5709C5D11E4ECF769556BDB3A /* ButtonCell.xib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		EEE83DA134BD76E1BAC795CF726552FF /* Aleppo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Aleppo;
-			sourceTree = "<group>";
-		};
-		F18ADE3232A4F88E6484FAC98DFB1A3B /* Puya */ = {
+		D83F88B8404637293875BF15EBCAA0F2 /* Puya */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = Puya;
 			sourceTree = "<group>";
 		};
-		F3F6FF515CE26C9F88C71DAEB5D2263C /* Jaloro */ = {
+		FFD639D2660C133CC8E7D2BC9622E933 /* Paprika */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = Jaloro;
-			sourceTree = "<group>";
-		};
-		FB8DF94E2D07047ED6CAC12712E1551A /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				751B92CCDCC0E60AFA1B62DD169C4804 /* CHIPageControl.modulemap */,
-				C54B48EBB309C89AD8C321B326731B9B /* CHIPageControl-dummy.m */,
-				C6C16C42D7AAFF41E2688E37AE611CC8 /* CHIPageControl-Info.plist */,
-				1EB3C7ECBD87016B7F3F3F2343DA55E5 /* CHIPageControl-prefix.pch */,
-				42E2B3F7660D0637AD3D7846B90FA90E /* CHIPageControl-umbrella.h */,
-				DF4E34BDB47B580F4C295EF937467672 /* CHIPageControl.debug.xcconfig */,
-				E65C37F17639920BD6193AC21D864C02 /* CHIPageControl.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/CHIPageControl";
+			name = Paprika;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -458,15 +418,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		74F138A03CB9BB3DBA4C24653E6BC59B /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4F8088624DEAF1E5BDD99F8ACCE9984 /* FXPageControl.h in Headers */,
-				FDA03AF7F8F2410886924775622CDF6D /* XLPagerTabStrip-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		7A4063BF36C47D87F6790F8C856C7BF2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -475,11 +426,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B590B87E8FA7C23E8460749DD4CD8BBC /* Headers */ = {
+		B582FA9F6A880998C41510D147124976 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F14795048A521E499BA1CA7F784CE79A /* Pods-InternetPlus-umbrella.h in Headers */,
+				D694DB01DD2C2C6A8D1E88866D50FFAE /* TimelineTableViewCell-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB32DB1017937F99EF7BB24D7230A81F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B20744DAAA4A93431219142BD4F90C69 /* Pods-InternetPlus-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -488,19 +447,19 @@
 /* Begin PBXNativeTarget section */
 		07453B3FC6B8657DD29158BD9DFD6DE6 /* Pods-InternetPlus */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 84841B11862037E6D56B325CEAC7D433 /* Build configuration list for PBXNativeTarget "Pods-InternetPlus" */;
+			buildConfigurationList = B9CEAE8ACAD585BD5B904EDB40892EF1 /* Build configuration list for PBXNativeTarget "Pods-InternetPlus" */;
 			buildPhases = (
-				B590B87E8FA7C23E8460749DD4CD8BBC /* Headers */,
-				91170A2679EB8A99211782B7FE173025 /* Sources */,
-				281FA43C06BF86AD06E7B59325D152DB /* Frameworks */,
-				4881DA98FA3AA51442C47AB8C7FF831A /* Resources */,
+				DB32DB1017937F99EF7BB24D7230A81F /* Headers */,
+				07F3A689C7FE5B5FC776616A0FEEAD9A /* Sources */,
+				69CBC79CD252A4F64331C59D0E788329 /* Frameworks */,
+				17C96443D1E89DE229713B3C6A239EB0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A809AEC203C73F989535A863BA7CC50A /* PBXTargetDependency */,
-				C60E7E99C1E750AE66996879D30125B0 /* PBXTargetDependency */,
-				6E6B7207E2858F88446330554B463D4B /* PBXTargetDependency */,
+				65E7F2E33F0589F9A0DC7D2BBBFED0B2 /* PBXTargetDependency */,
+				A724EDD6F313BEEEA18840575A1A8106 /* PBXTargetDependency */,
+				8FD0485D538D1335A1BA0FA538D7D95D /* PBXTargetDependency */,
 			);
 			name = "Pods-InternetPlus";
 			productName = "Pods-InternetPlus";
@@ -525,6 +484,23 @@
 			productReference = 4A90E991BC0CB35AB6D91E18C9490643 /* CHIPageControl.framework */;
 			productType = "com.apple.product-type.framework";
 		};
+		6C364E074EFE2E0A69C47469410E6CF1 /* TimelineTableViewCell-TimelineTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B19FFFD95C3CA3143304A6C62F091A80 /* Build configuration list for PBXNativeTarget "TimelineTableViewCell-TimelineTableViewCell" */;
+			buildPhases = (
+				067027E25B7EC96B0FB1ADDF0EC234D7 /* Sources */,
+				93235523ED97C918569CBCC4CEB47CCD /* Frameworks */,
+				43FB4B4F74AD5C79CA0DC98B37CF5A45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TimelineTableViewCell-TimelineTableViewCell";
+			productName = "TimelineTableViewCell-TimelineTableViewCell";
+			productReference = 8F6433D6912D94AF674E50B3B07EE4CC /* TimelineTableViewCell.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
 		853F06171CBCBA44E07BFA759616CA0B /* ZKCycleScrollView-Swift */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E2281C7E0EF1C0DAF713AF911E2FE55 /* Build configuration list for PBXNativeTarget "ZKCycleScrollView-Swift" */;
@@ -543,41 +519,24 @@
 			productReference = A485BD36D1A28416B261FF4DD931B5F7 /* ZKCycleScrollView_Swift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */ = {
+		A369E0840142BBDAD437DCF676B529E6 /* TimelineTableViewCell */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8EA79E53F8AD2800F18C0FC6C26EE23 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */;
+			buildConfigurationList = 3C4504474F01AF7A771BE4222307E87E /* Build configuration list for PBXNativeTarget "TimelineTableViewCell" */;
 			buildPhases = (
-				74F138A03CB9BB3DBA4C24653E6BC59B /* Headers */,
-				921AF1E39955D7C4779B2652FB3CB3A6 /* Sources */,
-				46838D78326334C73BB939C9C9EB9D5E /* Frameworks */,
-				B9D7BB4FD64E186E0D92DB1022D96031 /* Resources */,
+				B582FA9F6A880998C41510D147124976 /* Headers */,
+				3352432B073C74DD257A4D850B0BB862 /* Sources */,
+				2BBC86B7AF62130B72ACA6C997ACD18D /* Frameworks */,
+				635BEFBBBC9A4D6E03FDD116DF9A924A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				72EA2756EBE3B308335267786C18A34F /* PBXTargetDependency */,
+				E02B6117364C7B9EE09FF6043DFC71CE /* PBXTargetDependency */,
 			);
-			name = XLPagerTabStrip;
-			productName = XLPagerTabStrip;
-			productReference = F1DDEA945255A18F0B9913AB1C2AB718 /* XLPagerTabStrip.framework */;
+			name = TimelineTableViewCell;
+			productName = TimelineTableViewCell;
+			productReference = 897DDFB32EB15CA77766485B088D913D /* TimelineTableViewCell.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 860A49CFC3913F3822798C47E4DCF381 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */;
-			buildPhases = (
-				22F1C0AEF8FD68D47126F66D273D19CB /* Sources */,
-				CE87B7E2643F60BCAFE3F99D669C4318 /* Frameworks */,
-				3F4A4D53793D41C15C8F5AA92E59B65D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "XLPagerTabStrip-XLPagerTabStrip";
-			productName = "XLPagerTabStrip-XLPagerTabStrip";
-			productReference = 78BA4BB1A553AB4136F879792D99C87D /* XLPagerTabStrip.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -597,14 +556,14 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 2CEB0F55FE8473ABAED3D8B44CA2FD48 /* Products */;
+			productRefGroup = 50D222ACF64C57AB9A75CA2DB6A1AAFB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */,
 				07453B3FC6B8657DD29158BD9DFD6DE6 /* Pods-InternetPlus */,
-				DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */,
-				EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */,
+				A369E0840142BBDAD437DCF676B529E6 /* TimelineTableViewCell */,
+				6C364E074EFE2E0A69C47469410E6CF1 /* TimelineTableViewCell-TimelineTableViewCell */,
 				853F06171CBCBA44E07BFA759616CA0B /* ZKCycleScrollView-Swift */,
 			);
 		};
@@ -618,26 +577,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F4A4D53793D41C15C8F5AA92E59B65D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4CE5ACA7C1A47253167021FFDDEBF906 /* ButtonCell.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4881DA98FA3AA51442C47AB8C7FF831A /* Resources */ = {
+		17C96443D1E89DE229713B3C6A239EB0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B9D7BB4FD64E186E0D92DB1022D96031 /* Resources */ = {
+		43FB4B4F74AD5C79CA0DC98B37CF5A45 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59852DCF0EAE0C79EC8FF4E311A7E33D /* XLPagerTabStrip.bundle in Resources */,
+				5E2F833F16E89916C703B9A081C4060D /* TimelineTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		635BEFBBBC9A4D6E03FDD116DF9A924A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DDDBCEA8BB24BF139A33224948C5696 /* TimelineTableViewCell.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -651,40 +610,29 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		22F1C0AEF8FD68D47126F66D273D19CB /* Sources */ = {
+		067027E25B7EC96B0FB1ADDF0EC234D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		91170A2679EB8A99211782B7FE173025 /* Sources */ = {
+		07F3A689C7FE5B5FC776616A0FEEAD9A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73A6D675F8644FF8640913D65B71326B /* Pods-InternetPlus-dummy.m in Sources */,
+				0B8F744D8C24E21BDEBCA1B7CFF74528 /* Pods-InternetPlus-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		921AF1E39955D7C4779B2652FB3CB3A6 /* Sources */ = {
+		3352432B073C74DD257A4D850B0BB862 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ECDB5DFCB90C8717CB32713AAF11C676 /* BarPagerTabStripViewController.swift in Sources */,
-				D197B238BD053D1E053E1EBF67FABCE2 /* BarView.swift in Sources */,
-				70D1849BD0B9BD7EBB1311006CE349EC /* BaseButtonBarPagerTabStripViewController.swift in Sources */,
-				C943763AB3E7EAD4539E817AD16952A0 /* ButtonBarPagerTabStripViewController.swift in Sources */,
-				96F004A79FF2CDEFB8696DA15A09FCD5 /* ButtonBarView.swift in Sources */,
-				D353700DB30D18C82F01E7169AD10C5D /* ButtonBarViewCell.swift in Sources */,
-				A0A4574D35E53A56E1B3F540A46F28E6 /* FXPageControl.m in Sources */,
-				2B2A32E12DFC1918CB0A59532F9F4CF6 /* IndicatorInfo.swift in Sources */,
-				A9EE7E538B6A8E5BB4A15E591A3DD0CA /* PagerTabStripBehaviour.swift in Sources */,
-				85E995273668E234E47C3A1CE7080660 /* PagerTabStripError.swift in Sources */,
-				CD7D46A532308BE7708D8B74D6409027 /* PagerTabStripViewController.swift in Sources */,
-				3564DFAEEC72B1F6EC13CB50896BFCFC /* SegmentedPagerTabStripViewController.swift in Sources */,
-				C56ECCE20FAE1CEE3B541E97119D21D1 /* SwipeDirection.swift in Sources */,
-				2263FBD3B28485FCCC534FC7C3C605BB /* TwitterPagerTabStripViewController.swift in Sources */,
-				EB710E3B83E5AC3825ACA9F70FC42732 /* XLPagerTabStrip-dummy.m in Sources */,
+				DDDA24A9734E9F70C66527E1E95A3564 /* Timeline.swift in Sources */,
+				9272790BB0921EA48D8B49062BC1E3A7 /* TimelinePoint.swift in Sources */,
+				88C2E973E815401CD2BBBAF3F638525E /* TimelineTableViewCell-dummy.m in Sources */,
+				F088CBD6DAB91D294A57C8DD3ED9C09F /* TimelineTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,72 +668,33 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6E6B7207E2858F88446330554B463D4B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ZKCycleScrollView-Swift";
-			target = 853F06171CBCBA44E07BFA759616CA0B /* ZKCycleScrollView-Swift */;
-			targetProxy = 165B6FAA81312D555D7A1570743BE22C /* PBXContainerItemProxy */;
-		};
-		72EA2756EBE3B308335267786C18A34F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "XLPagerTabStrip-XLPagerTabStrip";
-			target = EBF90A3A56D4C5830C212D000AB67BC1 /* XLPagerTabStrip-XLPagerTabStrip */;
-			targetProxy = D9EE2B6CBB2387623F21BD731FC70A8B /* PBXContainerItemProxy */;
-		};
-		A809AEC203C73F989535A863BA7CC50A /* PBXTargetDependency */ = {
+		65E7F2E33F0589F9A0DC7D2BBBFED0B2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = CHIPageControl;
 			target = 58A7AC722D45BA5EF49F00D98C86978B /* CHIPageControl */;
-			targetProxy = 99380BECA782E9DD42746D465C617EFC /* PBXContainerItemProxy */;
+			targetProxy = F9685447CCECF309A4829BFB9B7AE879 /* PBXContainerItemProxy */;
 		};
-		C60E7E99C1E750AE66996879D30125B0 /* PBXTargetDependency */ = {
+		8FD0485D538D1335A1BA0FA538D7D95D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = XLPagerTabStrip;
-			target = DC5C3A7662FFA04D04D29F4657D032CE /* XLPagerTabStrip */;
-			targetProxy = B78D1AF93BBF06C1B586F99AFEA2D0E0 /* PBXContainerItemProxy */;
+			name = "ZKCycleScrollView-Swift";
+			target = 853F06171CBCBA44E07BFA759616CA0B /* ZKCycleScrollView-Swift */;
+			targetProxy = E2C943C6E9B5FF8C7462BBC8624D2D6E /* PBXContainerItemProxy */;
+		};
+		A724EDD6F313BEEEA18840575A1A8106 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TimelineTableViewCell;
+			target = A369E0840142BBDAD437DCF676B529E6 /* TimelineTableViewCell */;
+			targetProxy = 2A6A17C56392668D3ACAE2FF531F6B32 /* PBXContainerItemProxy */;
+		};
+		E02B6117364C7B9EE09FF6043DFC71CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "TimelineTableViewCell-TimelineTableViewCell";
+			target = 6C364E074EFE2E0A69C47469410E6CF1 /* TimelineTableViewCell-TimelineTableViewCell */;
+			targetProxy = EE06CDE6ABE09BFE681832F22AF0F729 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		13D8BAE905BF09C40F91B491EFC77997 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58FAB90913DE861D3A4257BA5C313E55 /* Pods-InternetPlus.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -846,16 +755,16 @@
 			};
 			name = Release;
 		};
-		299078E917DDEA284E6D55C95EF26549 /* Debug */ = {
+		310AA75CB53A328C0169B6BC3AF5CEE6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 708A835E00F17C145D43B2BE9D028F9F /* XLPagerTabStrip.debug.xcconfig */;
+			baseConfigurationReference = C24B447279624B30F5A55114CA6CD44D /* TimelineTableViewCell.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
-				IBSC_MODULE = XLPagerTabStrip;
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_NAME = XLPagerTabStrip;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimelineTableViewCell";
+				IBSC_MODULE = TimelineTableViewCell;
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/ResourceBundle-TimelineTableViewCell-TimelineTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TimelineTableViewCell;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -863,10 +772,12 @@
 			};
 			name = Debug;
 		};
-		38D3E8C68FB4147BA5499AEC2834FC21 /* Release */ = {
+		3AA5E7C50FD327BA059E631AB70BD6B8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34292478875A219969C02BE8054F150D /* XLPagerTabStrip.release.xcconfig */;
+			baseConfigurationReference = 58FAB90913DE861D3A4257BA5C313E55 /* Pods-InternetPlus.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -876,22 +787,23 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
-				PRODUCT_MODULE_NAME = XLPagerTabStrip;
-				PRODUCT_NAME = XLPagerTabStrip;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-InternetPlus/Pods-InternetPlus.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -901,7 +813,7 @@
 		};
 		5A03D2C244FD43822F9EB5A05EA2C6B4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F864E4D2A44B90C6C0EBF1476E994045 /* ZKCycleScrollView-Swift.release.xcconfig */;
+			baseConfigurationReference = 08C12D1FF36463F21A2A91AA70579301 /* ZKCycleScrollView-Swift.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -937,7 +849,7 @@
 		};
 		65306D07556D609F8F91040C465887B3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E65C37F17639920BD6193AC21D864C02 /* CHIPageControl.release.xcconfig */;
+			baseConfigurationReference = ED056A9B39A4CFB424330810F28BA156 /* CHIPageControl.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -971,59 +883,7 @@
 			};
 			name = Release;
 		};
-		7D87B016676087DAD89441845264ECB1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 708A835E00F17C145D43B2BE9D028F9F /* XLPagerTabStrip.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/XLPagerTabStrip/XLPagerTabStrip.modulemap";
-				PRODUCT_MODULE_NAME = XLPagerTabStrip;
-				PRODUCT_NAME = XLPagerTabStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		A5E65FD485BE69511D3A3408CDDC08FB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34292478875A219969C02BE8054F150D /* XLPagerTabStrip.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/XLPagerTabStrip";
-				IBSC_MODULE = XLPagerTabStrip;
-				INFOPLIST_FILE = "Target Support Files/XLPagerTabStrip/ResourceBundle-XLPagerTabStrip-XLPagerTabStrip-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				PRODUCT_NAME = XLPagerTabStrip;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		B862A86BBB28F95D96323379D9B9034D /* Debug */ = {
+		65C2B0349C58D1BC7DE79FA1A046ADFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C17DA4EE6AFB203D6D22F8A3C195C82E /* Pods-InternetPlus.debug.xcconfig */;
 			buildSettings = {
@@ -1061,9 +921,80 @@
 			};
 			name = Debug;
 		};
+		720426E73D1FB29D238845BB3A639DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCEC0EA294850595953869584271E8D /* TimelineTableViewCell.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell.modulemap";
+				PRODUCT_MODULE_NAME = TimelineTableViewCell;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7476CF8B1F114FDDF0360522DBC01E3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C24B447279624B30F5A55114CA6CD44D /* TimelineTableViewCell.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TimelineTableViewCell/TimelineTableViewCell.modulemap";
+				PRODUCT_MODULE_NAME = TimelineTableViewCell;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		BEFCDBBE0F2E002C73D60498B27931C4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 945E7960DD8547F40DF4F90DBCA454CF /* ZKCycleScrollView-Swift.debug.xcconfig */;
+			baseConfigurationReference = 4B5E6042A409E8291031CC30B49512A0 /* ZKCycleScrollView-Swift.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1098,7 +1029,7 @@
 		};
 		CA52A922DBE785A60EB6CBE3C6EA8491 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = DF4E34BDB47B580F4C295EF937467672 /* CHIPageControl.debug.xcconfig */;
+			baseConfigurationReference = DA6E89400733F4940D93D7C7797FBBDF /* CHIPageControl.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1195,32 +1126,40 @@
 			};
 			name = Debug;
 		};
+		FDC41F9F9288EE48E551B672306C8745 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CCEC0EA294850595953869584271E8D /* TimelineTableViewCell.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/TimelineTableViewCell";
+				IBSC_MODULE = TimelineTableViewCell;
+				INFOPLIST_FILE = "Target Support Files/TimelineTableViewCell/ResourceBundle-TimelineTableViewCell-TimelineTableViewCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = TimelineTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3C4504474F01AF7A771BE4222307E87E /* Build configuration list for PBXNativeTarget "TimelineTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7476CF8B1F114FDDF0360522DBC01E3E /* Debug */,
+				720426E73D1FB29D238845BB3A639DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
 				1422B121EAEAEA11307496903FA623C6 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84841B11862037E6D56B325CEAC7D433 /* Build configuration list for PBXNativeTarget "Pods-InternetPlus" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				B862A86BBB28F95D96323379D9B9034D /* Debug */,
-				13D8BAE905BF09C40F91B491EFC77997 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		860A49CFC3913F3822798C47E4DCF381 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip-XLPagerTabStrip" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				299078E917DDEA284E6D55C95EF26549 /* Debug */,
-				A5E65FD485BE69511D3A3408CDDC08FB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1243,11 +1182,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8EA79E53F8AD2800F18C0FC6C26EE23 /* Build configuration list for PBXNativeTarget "XLPagerTabStrip" */ = {
+		B19FFFD95C3CA3143304A6C62F091A80 /* Build configuration list for PBXNativeTarget "TimelineTableViewCell-TimelineTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7D87B016676087DAD89441845264ECB1 /* Debug */,
-				38D3E8C68FB4147BA5499AEC2834FC21 /* Release */,
+				310AA75CB53A328C0169B6BC3AF5CEE6 /* Debug */,
+				FDC41F9F9288EE48E551B672306C8745 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9CEAE8ACAD585BD5B904EDB40892EF1 /* Build configuration list for PBXNativeTarget "Pods-InternetPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65C2B0349C58D1BC7DE79FA1A046ADFA /* Debug */,
+				3AA5E7C50FD327BA059E631AB70BD6B8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
