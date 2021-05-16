@@ -1,4 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-InternetPlus/Pods-InternetPlus-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/CHIPageControl/CHIPageControl.framework
 ${BUILT_PRODUCTS_DIR}/TimelineTableViewCell/TimelineTableViewCell.framework
+${BUILT_PRODUCTS_DIR}/ZHDropDownMenu/ZHDropDownMenu.framework
 ${BUILT_PRODUCTS_DIR}/ZKCycleScrollView-Swift/ZKCycleScrollView_Swift.framework

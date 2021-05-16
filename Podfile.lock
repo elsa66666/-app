@@ -17,24 +17,28 @@ PODS:
   - CHIPageControl/Paprika (0.2)
   - CHIPageControl/Puya (0.2)
   - TimelineTableViewCell (2.2.2)
+  - ZHDropDownMenu (1.0.0)
   - ZKCycleScrollView-Swift (2.0.2)
 
 DEPENDENCIES:
   - CHIPageControl
   - TimelineTableViewCell
+  - ZHDropDownMenu
   - ZKCycleScrollView-Swift
 
 SPEC REPOS:
   trunk:
     - CHIPageControl
     - TimelineTableViewCell
+    - ZHDropDownMenu
     - ZKCycleScrollView-Swift
 
 SPEC CHECKSUMS:
   CHIPageControl: a787bf7205c9b7e7fbfc412be36c5e8636b68f86
   TimelineTableViewCell: f0c35f7941775e48a5356e7c7ae3a5a51721c80a
+  ZHDropDownMenu: aa2917b07820b9eba3dc98066f85257017821b65
   ZKCycleScrollView-Swift: c5d6c4aa5576a9bee2361ecd6c6e89996d9fd5d8
 
-PODFILE CHECKSUM: af374804282996af117694dc6056ae98ec7d7949
+PODFILE CHECKSUM: 1acde058b95dfb147275e5318028f452759076aa
 
 COCOAPODS: 1.9.3
