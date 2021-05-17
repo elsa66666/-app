@@ -168,7 +168,7 @@ public protocol ZHDropDownMenuDelegate: NSObjectProtocol {
         
         showBorder = true
         textColor = .darkGray
-        font = UIFont.systemFont(ofSize: 16)
+        font = UIFont.systemFont(ofSize: 12)
     }
     
     @objc func showOrHide() {

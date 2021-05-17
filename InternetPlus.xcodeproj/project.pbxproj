@@ -13,6 +13,8 @@
 		5F641DAC264832A4008904F0 /* infoCheckTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F641DAA264832A4008904F0 /* infoCheckTableViewCell.xib */; };
 		5F6A44762643DF4900F61D22 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F6A44752643DF4900F61D22 /* ToDoViewController.swift */; };
 		5F8BFEE2263D48DB00E8FECA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F8BFEE1263D48DB00E8FECA /* Constants.swift */; };
+		5F9146D926529FE80044B731 /* CollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9146D726529FE80044B731 /* CollectionTableViewCell.swift */; };
+		5F9146DA26529FE80044B731 /* CollectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5F9146D826529FE80044B731 /* CollectionTableViewCell.xib */; };
 		5F95A8ED26288D010073A032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F95A8EC26288D010073A032 /* AppDelegate.swift */; };
 		5F95A8EF26288D010073A032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F95A8EE26288D010073A032 /* SceneDelegate.swift */; };
 		5F95A8F426288D010073A032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F95A8F226288D010073A032 /* Main.storyboard */; };
@@ -42,6 +44,8 @@
 		5F641DAA264832A4008904F0 /* infoCheckTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = infoCheckTableViewCell.xib; sourceTree = "<group>"; };
 		5F6A44752643DF4900F61D22 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		5F8BFEE1263D48DB00E8FECA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		5F9146D726529FE80044B731 /* CollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionTableViewCell.swift; sourceTree = "<group>"; };
+		5F9146D826529FE80044B731 /* CollectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionTableViewCell.xib; sourceTree = "<group>"; };
 		5F95A8E926288D010073A032 /* InternetPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InternetPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F95A8EC26288D010073A032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F95A8EE26288D010073A032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				5FEE919926512D1100113BFF /* BillTableViewCell.xib */,
 				5FEE919E26513DD700113BFF /* straightCarTableViewCell.swift */,
 				5FEE919F26513DD700113BFF /* straightCarTableViewCell.xib */,
+				5F9146D726529FE80044B731 /* CollectionTableViewCell.swift */,
+				5F9146D826529FE80044B731 /* CollectionTableViewCell.xib */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 				5FD9CA5E2640FB0B007BE62A /* ProductCell.xib in Resources */,
 				5FEE91A126513DD700113BFF /* straightCarTableViewCell.xib in Resources */,
 				5FC13AFB2649127200F0891E /* TimelineTableViewCell.xib in Resources */,
+				5F9146DA26529FE80044B731 /* CollectionTableViewCell.xib in Resources */,
 				5FEE919B26512D1100113BFF /* BillTableViewCell.xib in Resources */,
 				5F95A8F626288D030073A032 /* Assets.xcassets in Resources */,
 				5F641DAC264832A4008904F0 /* infoCheckTableViewCell.xib in Resources */,
@@ -296,6 +303,7 @@
 				5FEE919D265133FB00113BFF /* CollectionViewController.swift in Sources */,
 				5FC13AFA2649127200F0891E /* TimelineTableViewCell.swift in Sources */,
 				5F95A8ED26288D010073A032 /* AppDelegate.swift in Sources */,
+				5F9146D926529FE80044B731 /* CollectionTableViewCell.swift in Sources */,
 				5FEE91A026513DD700113BFF /* straightCarTableViewCell.swift in Sources */,
 				5FA0BF882650DF09009FB0A9 /* BillViewController.swift in Sources */,
 				5FD9CA5D2640FB0B007BE62A /* ProductCell.swift in Sources */,
